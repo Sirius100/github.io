@@ -1,7 +1,23 @@
 body {
   width: 100vw;
   height: 11300px;
+  box-sizing: border-box;
   background: deeppink;
   border: 1.5px solid red; }
   body div {
-    display: grid; }
+    display: grid;
+    border: 1px solid lawngreen; }
+
+.wrapper {
+  width: inherit;
+  height: inherit;
+  border: lawngreen; }
+  .wrapper div {
+    background: black;
+    border: 2px solid aqua;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    right: 80px; }
