@@ -1,0 +1,7 @@
+body {
+  width: 100vw;
+  height: 11300px;
+  background: deeppink;
+  border: 1.5px solid red; }
+  body div {
+    display: grid; }
