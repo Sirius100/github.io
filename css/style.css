@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: 99vw;
   height: 11300px;
   box-sizing: border-box;
   background: deeppink;
@@ -14,7 +14,7 @@ body {
   border: lawngreen; }
   .wrapper div {
     background: black;
-    border: 2px solid aqua;
+    border: 2px solid deeppink;
     width: 200px;
     height: 150px;
     position: relative;
