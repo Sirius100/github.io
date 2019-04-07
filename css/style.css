@@ -1,23 +1,21 @@
 body {
   width: 98vw;
   height: 11300px;
-  box-sizing: border-box;
   background: deeppink;
-  border: 1.5px solid red; }
-  body div {
-    display: grid;
-    border: 1px solid lawngreen; }
+  border: 1.5px solid red;
+  background: url("../img/code.png"); }
 
 .wrapper {
   width: inherit;
   height: inherit;
   border: lawngreen; }
-  .wrapper div {
-    background: black;
-    border: 2px solid deeppink;
-    width: 200px;
-    height: 150px;
+  .wrapper .photo {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
     position: relative;
-    top: 100px;
-    left: 25px;
-    right: 80px; }
+    margin: auto; }
+    .wrapper .photo img {
+      width: inherit;
+      height: inherit;
+      border: 2px solid red; }
