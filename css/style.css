@@ -1,6 +1,6 @@
 body {
   width: 99vw;
-  height: 11300px;
+  height: 300vh;
   background: #96999C; }
 
 header {
@@ -42,6 +42,12 @@ header {
       background: blueviolet;
       -webkit-clip-path: polygon(0 0, 100% 0, 90% 70%, 90% 95%, 10% 95%, 10% 70%, 0 0);
               clip-path: polygon(0 0, 100% 0, 90% 70%, 90% 95%, 10% 95%, 10% 70%, 0 0); }
+
+.sub-2 {
+  background: darkcyan; }
+
+.sub-3 {
+  background: lawngreen; }
 
 .wrapper {
   display: grid;

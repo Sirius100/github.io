@@ -1,0 +1,9 @@
+header {
+  width: inherit;
+  height: 15vh;
+  position: relative;
+  top: 0;
+  padding-right: 2px;
+  border-bottom: 1px solid lawngreen;
+  background: darkslategrey;
+  opacity: 0.6; }

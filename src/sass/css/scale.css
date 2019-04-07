@@ -1,0 +1,11 @@
+.scale {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-column-gap: 5px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
+  .scale div {
+    background: aqua;
+    opacity: 0.1; }
