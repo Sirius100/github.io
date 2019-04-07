@@ -1,4 +1,5 @@
 header {
+  display: grid;
   width: inherit;
   height: 15vh;
   position: relative;
