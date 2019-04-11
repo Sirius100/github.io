@@ -11,7 +11,7 @@ header {
   padding-right: 2px;
   border-bottom: 1px solid lawngreen;
   background: darkslategrey;
-  background-image: linear-gradient(135deg, #93CB06 10%, darkslategrey 60%, #4154F1 96%);
+  background-image: linear-gradient(135deg, #93CB06 10%, #CB067C 60%, #4154F1 96%);
   opacity: 0.6; }
 
 .navigation {
@@ -35,10 +35,6 @@ header {
       margin-top: 20px; }
     .navigation .nav li:nth-child(n+2) {
       margin-left: 4%; }
-    .navigation .nav a {
-      display: inline-block;
-      text-decoration: none;
-      color: #FFFFFF; }
 
 .scale {
   display: grid;
@@ -53,10 +49,28 @@ header {
     background: aqua;
     opacity: 0.1; }
 
+@font-face {
+  font-family: "jua";
+  src: url("../src/Font/Jua/Jua-Regular.ttf"); }
 .water:hover {
   border: 2px solid aqua !important;
   border-radius: 25% 25% 25% 25%;
   background: #32CB06 !important; }
+
+.but {
+  width: 12vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15%;
+  text-decoration: none;
+  background: #1FF46F;
+  font-family: jua;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #999980;
+  padding-top: 9px; }
 
 .sub-1 {
   position: fixed;
@@ -92,6 +106,11 @@ header {
   top: 100vh;
   background: darkcyan; }
 
+.sub-3 {
+  position: absolute;
+  top: 200vh;
+  background: lawngreen; }
+
 .wrapper {
   display: grid;
   grid-template-rows: repeat(3, 100vh);
@@ -100,8 +119,3 @@ header {
   .wrapper .subwrapper {
     width: inherit;
     height: 100vh; }
-
-.sub-3 {
-  position: absolute;
-  top: 200vh;
-  background: lawngreen; }

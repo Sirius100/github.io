@@ -1,7 +1,25 @@
+@font-face {
+  font-family: "jua";
+  src: url("../src/Font/Jua/Jua-Regular.ttf"); }
 .water:hover {
   border: 2px solid aqua !important;
   border-radius: 25% 25% 25% 25%;
   background: #32CB06 !important; }
+
+.but {
+  width: 12vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15%;
+  text-decoration: none;
+  background: #1FF46F;
+  font-family: jua;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #999980;
+  padding-top: 9px; }
 
 .sub-1 {
   position: fixed;
