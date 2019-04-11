@@ -17,5 +17,6 @@
       display: inline;
       text-align: center;
       margin-top: 20px; }
-    .navigation .nav li:nth-child(n+2) {
-      margin-left: 4%; }
+  @media (min-width: 769px) {
+    .navigation li:nth-child(n+2) {
+      margin-left: 4%; } }
