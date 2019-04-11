@@ -19,7 +19,7 @@ header {
   grid-template-rows: repeat(2, 1fr);
   color: #fff;
   width: 97vw;
-  height: 5vh;
+  height: 10vh;
   border: 2px solid red;
   border-radius: 25%;
   text-align: center;
@@ -27,14 +27,18 @@ header {
   margin-right: auto; }
   .navigation .nav {
     list-style-type: none;
-    display: inline;
-    text-align: center; }
+    text-align: center;
+    color: #FFFFFF; }
     .navigation .nav li {
-      display: inline-block;
-      text-align: center; }
+      display: inline;
+      text-align: center;
+      margin-top: 20px; }
+    .navigation .nav li:nth-child(n+2) {
+      margin-left: 4%; }
     .navigation .nav a {
-      display: block;
-      text-decoration: none; }
+      display: inline-block;
+      text-decoration: none;
+      color: #FFFFFF; }
 
 .scale {
   display: grid;
@@ -88,11 +92,6 @@ header {
   top: 100vh;
   background: darkcyan; }
 
-.sub-3 {
-  position: absolute;
-  top: 200vh;
-  background: lawngreen; }
-
 .wrapper {
   display: grid;
   grid-template-rows: repeat(3, 100vh);
@@ -101,3 +100,8 @@ header {
   .wrapper .subwrapper {
     width: inherit;
     height: 100vh; }
+
+.sub-3 {
+  position: absolute;
+  top: 200vh;
+  background: lawngreen; }

@@ -3,7 +3,7 @@
   grid-template-rows: repeat(2, 1fr)
   color: #fff
   width: 97vw
-  height: 5vh
+  height: 10vh
   border: 2px solid red
   border-radius: 25%
   text-align: center
@@ -12,13 +12,17 @@
     right: auto
   .nav
     list-style-type: none
-    display: inline
     text-align: center
+    color: #FFFFFF
 
     li
-      display: inline-block
+      display: inline
       text-align: center
+      margin-top: 20px
+    li:nth-child(n+2)
+      margin-left: 4%
 
     a
-      display: block
+      display: inline-block
       text-decoration: none
+      color: #FFFFFF
