@@ -4,7 +4,7 @@ body {
   background: #96999C; }
 
 header {
-  display: grid;
+  display: flex;
   width: inherit;
   height: 15vh;
   position: relative;
@@ -16,7 +16,7 @@ header {
 
 .scale {
   display: grid;
-  grid-template-columns: repeat(20, 1fr);
+  grid-template-columns: repeat(22, 1fr);
   grid-column-gap: 5px;
   position: fixed;
   width: 100%;
@@ -26,32 +26,51 @@ header {
     background: aqua;
     opacity: 0.1; }
 
+.water:hover {
+  border: 2px solid aqua !important;
+  border-radius: 25% 25% 25% 25%;
+  background: red !important; }
+
 .sub-1 {
+  position: fixed;
+  top: 0vh;
   background: url("../img/brick.png");
   background-size: cover; }
   .sub-1 div {
     width: 100%;
-    height: 100%;
+    height: inherit;
     background: black;
     opacity: 0.7; }
     .sub-1 div .menu {
-      grid-area: "18";
       display: grid;
-      position: relative;
-      width: 4.5vw;
-      height: 40%;
-      top: 30%;
-      margin-left: 85%;
-      background: gold; }
+      position: absolute;
+      width: 4vw;
+      height: 4vh;
+      top: 37%;
+      left: 87%;
+      border: 2px solid #96999C;
+      border-radius: 25% 25% 25% 25%;
+      background: #96999C; }
       .sub-1 div .menu .line-menu {
+        position: relative;
         width: 100%;
-        height: 3px;
-        background: lawngreen; }
+        height: 4px;
+        background: #FFFFFF; }
+      .sub-1 div .menu .line-menu:nth-child(1) {
+        top: 12%; }
+      .sub-1 div .menu .line-menu:nth-child(2) {
+        top: 17.5%; }
+      .sub-1 div .menu .line-menu:nth-child(3) {
+        top: 17%; }
 
 .sub-2 {
+  position: absolute;
+  top: 100vh;
   background: darkcyan; }
 
 .sub-3 {
+  position: absolute;
+  top: 200vh;
   background: lawngreen; }
 
 .wrapper {
@@ -60,4 +79,5 @@ header {
   width: inherit;
   height: 300vh; }
   .wrapper .subwrapper {
-    position: relative; }
+    width: inherit;
+    height: 100vh; }

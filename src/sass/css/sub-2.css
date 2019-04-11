@@ -1,2 +1,4 @@
 .sub-2 {
+  position: absolute;
+  top: 100vh;
   background: darkcyan; }

@@ -4,4 +4,5 @@
   width: inherit;
   height: 300vh; }
   .wrapper .subwrapper {
-    position: relative; }
+    width: inherit;
+    height: 100vh; }
