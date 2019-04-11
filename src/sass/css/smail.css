@@ -25,7 +25,7 @@
 
   .navigation {
     position: relative;
-    top: 25px;
+    top: 50px;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     color: #fff;
