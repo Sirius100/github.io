@@ -16,9 +16,12 @@
       height: 3px
       border-radius: 15%
       background: #FFFFFF
-    .line-menu
-      :nth-child(n)
-        top: 15%
+    .line-menu:nth-child(1)
+      top: 15%
+    .line-menu:nth-child(2)
+      top: 46%
+    .line-menu:nth-child(3)
+      top: 75%
 
   .navigation
     display: grid
@@ -32,7 +35,13 @@
     margin:
       left: auto
       right: auto
+    span
+      position: relative
+      top:  40px
+      text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310
     .nav
+      position: relative
+      top: 55px
       list-style-type: none
       text-align: center
       color: #FFFFFF
@@ -55,4 +64,4 @@
     font-size: 1.1rem
     font-weight: bold
     color: #999980
-    padding-top: 9px
+    padding-top: 5px
