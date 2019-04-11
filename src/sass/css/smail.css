@@ -47,7 +47,9 @@
       .navigation .nav li {
         display: block;
         text-align: center;
-        margin-top: 20px; }
+        margin-top: 25px; }
+      .navigation .nav li:nth-child(n+2) {
+        margin-top: 30px; }
 
   .but {
     width: 45vw;
