@@ -120,7 +120,7 @@
     margin-right: auto; }
     .navigation .nav {
       position: relative;
-      top: -9px;
+      top: 12px;
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
@@ -133,7 +133,7 @@
         left: 2vw; }
       .navigation .nav li:nth-child(2) {
         top: 9vh;
-        left: 33vw; }
+        left: 2vw; }
       .navigation .nav li:nth-child(3) {
         top: -27vh;
         left: 64vw; }
