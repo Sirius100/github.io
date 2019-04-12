@@ -69,7 +69,7 @@ header {
       border-radius: 15%;
       background: #FFFFFF; }
     .menu .line-menu:nth-child(1) {
-      top: 14%; }
+      top: 13%; }
     .menu .line-menu:nth-child(2) {
       top: 45%; }
     .menu .line-menu:nth-child(3) {
@@ -126,8 +126,7 @@ header {
   src: url("../src/Font/Jua/Jua-Regular.ttf"); }
 .water:hover {
   border: 2px solid aqua !important;
-  border-radius: 25% 25% 25% 25%;
-  background: #32CB06 !important; }
+  border-radius: 25% 25% 25% 25%; }
 
 @media (min-width: 769px) {
   .but {
