@@ -111,6 +111,7 @@ header {
       position: absolute;
       top: 0vh;
       left: 31vw;
+      letter-spacing: 0.2vw;
       text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
     .navigation .nav {
       position: absolute;
