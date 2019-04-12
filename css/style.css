@@ -107,7 +107,7 @@ header {
 
   .but {
     width: 45vw;
-    height: 4.5vh;
+    height: 4.8vh;
     display: inline-block;
     text-align: center;
     border-radius: 15%;
@@ -116,7 +116,7 @@ header {
     font-family: jua;
     letter-spacing: 1px;
     font-size: 0.9rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #999980;
     padding-top: 0.8vh; } }
 
