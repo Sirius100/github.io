@@ -148,7 +148,7 @@ header {
     .navigation span {
       position: absolute;
       top: 0vh;
-      left: 31vw;
+      left: 34vw;
       letter-spacing: 0.2vw;
       text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
     .navigation .nav {
@@ -157,8 +157,6 @@ header {
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
-      .navigation .nav .but {
-        padding-top: 0.3vh; }
       .navigation .nav li {
         display: block;
         position: absolute;
