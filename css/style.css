@@ -36,9 +36,6 @@ header {
       display: inline;
       text-align: center;
       margin-top: 20px; }
-  @media (min-width: 769px) {
-    .navigation li:nth-child(n+2) {
-      margin-left: 4%; } }
 
 .scale {
   display: grid;
@@ -174,7 +171,7 @@ header {
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.3vh; } }
-@media (min-width: 500px) and (max-width: 780px) {
+@media (min-width: 900px) and (max-width: 980px) {
   .menu {
     display: grid;
     position: relative;
