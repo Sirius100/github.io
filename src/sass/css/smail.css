@@ -25,7 +25,7 @@
 
   .navigation {
     position: relative;
-    top: 50px;
+    top: 9vh;
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     color: #fff;
@@ -37,15 +37,18 @@
     margin-left: auto;
     margin-right: auto; }
     .navigation span {
-      position: relative;
-      top: 20px;
+      position: absolute;
+      top: 0vh;
+      left: 30vw;
       text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
     .navigation .nav {
-      position: relative;
-      top: 35px;
+      position: absolute;
+      top: 21vh;
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
+      .navigation .nav .but {
+        padding-top: 0.3vh; }
       .navigation .nav li {
         display: block;
         position: absolute;
