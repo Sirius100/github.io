@@ -121,7 +121,7 @@
     margin-right: auto; }
     .navigation .nav {
       position: relative;
-      top: 24vh;
+      top: 22vh;
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
@@ -131,10 +131,10 @@
         text-align: center; }
       .navigation .nav li:nth-child(1) {
         top: -27vh;
-        left: 2vw; }
+        left: 6vw; }
       .navigation .nav li:nth-child(2) {
         top: 9vh;
-        left: 2vw; }
+        left: 6vw; }
       .navigation .nav li:nth-child(3) {
         top: -27vh;
         left: 64vw; }
@@ -143,11 +143,11 @@
         left: 64vw; }
       .navigation .nav li:nth-child(5) {
         top: -9vh;
-        left: 33vw; }
+        left: 35vw; }
 
   .but {
-    width: 30vw;
-    height: 9vh;
+    width: 26vw;
+    height: 11vh;
     display: inline-block;
     text-align: center;
     border-radius: 15%;
@@ -159,4 +159,4 @@
     font-weight: normal;
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
-    padding-top: 1.3vh; } }
+    padding-top: 2.3vh; } }
