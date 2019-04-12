@@ -1,3 +1,8 @@
+body {
+  width: 99vw;
+  height: 300vh;
+  background: #96999C; }
+
 header {
   width: inherit;
   height: 15vh;
@@ -8,11 +13,6 @@ header {
   background: darkslategrey;
   background-image: linear-gradient(135deg, #93CB06 10%, #CB067C 60%, #4154F1 96%);
   opacity: 0.6; }
-
-body {
-  width: 99vw;
-  height: 300vh;
-  background: #96999C; }
 
 .navigation {
   display: grid;
@@ -94,20 +94,20 @@ body {
       text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
     .navigation .nav {
       position: relative;
-      top: 33px;
+      top: 25px;
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
       .navigation .nav li {
         display: block;
         text-align: center;
-        margin-top: 25px; }
+        margin-top: 5px; }
       .navigation .nav li:nth-child(n+2) {
         margin-top: 30px; }
 
   .but {
     width: 45vw;
-    height: 4.8vh;
+    height: 6vh;
     display: inline-block;
     text-align: center;
     border-radius: 15%;
@@ -117,8 +117,9 @@ body {
     letter-spacing: 1px;
     font-size: 0.9rem;
     font-weight: normal;
-    color: #999980;
-    padding-top: 0.8vh; } }
+    color: #000000;
+    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    padding-top: 1.3vh; } }
 
 @font-face {
   font-family: "jua";
@@ -141,7 +142,7 @@ body {
     letter-spacing: 1px;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #999980;
+    color: #000000;
     padding-top: 9px; } }
 .sub-1 {
   position: fixed;
