@@ -1,4 +1,5 @@
-@media (min-width: 481px) and (max-width: 853px)
+//вертикальное положение телефона
+@media (min-width: 240px) and (max-width: 340px)
   .menu
     display: grid
     position: relative
@@ -27,7 +28,7 @@
     position: relative
     top:  50px
     display: grid
-    grid-template-rows: repeat(5, 1fr)
+    grid-template-rows: repeat(6, 1fr)
     color: #fff
     width: 97vw
     height: 70vh
@@ -43,17 +44,28 @@
       text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310
     .nav
       position: relative
-      top: 52px
+      top: 35px
       list-style-type: none
       text-align: center
       color: #FFFFFF
 
       li
         display: block
+        position: absolute
+        left: 24vw
+        height: 6vh
         text-align: center
         margin-top: 5px
-      li:nth-child(n+2)
-        margin-top: 30px
+      li:nth-child(1)
+        top:  -5vh
+      li:nth-child(2)
+        top:  5vh
+      li:nth-child(3)
+        top:  15vh
+      li:nth-child(4)
+        top:  25vh
+      li:nth-child(5)
+        top:  35vh
 
 
   .but
@@ -72,8 +84,8 @@
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff
     padding-top: 1.3vh
 
-//вертикальное положение телефона
-@media (min-width: 320px) and (max-width: 480px)
+//горизонтальное положение телефона
+@media (min-width: 479px) and (max-width: 780px)
   .menu
     display: grid
     position: relative
