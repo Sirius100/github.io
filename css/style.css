@@ -3,6 +3,17 @@ body {
   height: 300vh;
   background: #96999C; }
 
+header {
+  width: inherit;
+  height: 15vh;
+  position: relative;
+  top: 0;
+  padding-right: 2px;
+  border-bottom: 1px solid lawngreen;
+  background: darkslategrey;
+  background-image: linear-gradient(135deg, #93CB06 10%, #CB067C 60%, #4154F1 96%);
+  opacity: 0.6; }
+
 @media (min-width: 769px) {
   .but {
     width: 13vw;
@@ -45,17 +56,6 @@ body {
     .navigation li:nth-child(n+2) {
       margin-left: 4%; } }
 
-header {
-  width: inherit;
-  height: 15vh;
-  position: relative;
-  top: 0;
-  padding-right: 2px;
-  border-bottom: 1px solid lawngreen;
-  background: darkslategrey;
-  background-image: linear-gradient(135deg, #93CB06 10%, #CB067C 60%, #4154F1 96%);
-  opacity: 0.6; }
-
 .scale {
   display: grid;
   grid-template-columns: repeat(22, 1fr);
@@ -69,45 +69,7 @@ header {
     background: aqua;
     opacity: 0.1; }
 
-@font-face {
-  font-family: "jua";
-  src: url("../src/Font/Jua/Jua-Regular.ttf"); }
-.water:hover {
-  border: 2px solid aqua !important;
-  border-radius: 25% 25% 25% 25%; }
-
-.sub-1 {
-  position: fixed;
-  top: 0vh;
-  background: url("../img/brick.png");
-  background-size: cover; }
-
-@media (min-width: 769px) {
-  .menu {
-    display: grid;
-    position: relative;
-    width: 3vw;
-    height: 4vh;
-    top: 37%;
-    left: 87.5%;
-    border: 2px solid #4C94CD;
-    border-radius: 25% 25% 25% 25%;
-    background: #000;
-    opacity: 1; }
-    .menu .line-menu {
-      position: absolute;
-      width: 100%;
-      height: 3px;
-      border-radius: 15% 15% 15% 15%;
-      background: #FFFFFF; }
-    .menu .line-menu:nth-child(1) {
-      top: 15%; }
-    .menu .line-menu:nth-child(2) {
-      top: 45%; }
-    .menu .line-menu:nth-child(3) {
-      top: 75%; } }
-
-@media (max-width: 360px) {
+@media (min-width: 240px) and (max-width: 319px) {
   .menu {
     display: grid;
     position: relative;
@@ -177,7 +139,7 @@ header {
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.3vh; } }
-@media (min-width: 491px) {
+@media (min-width: 320px) and (max-width: 491px) {
   .menu {
     display: grid;
     position: relative;
@@ -254,6 +216,44 @@ header {
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.3vh; } }
+
+@font-face {
+  font-family: "jua";
+  src: url("../src/Font/Jua/Jua-Regular.ttf"); }
+.water:hover {
+  border: 2px solid aqua !important;
+  border-radius: 25% 25% 25% 25%; }
+
+.sub-1 {
+  position: fixed;
+  top: 0vh;
+  background: url("../img/brick.png");
+  background-size: cover; }
+
+@media (min-width: 769px) {
+  .menu {
+    display: grid;
+    position: relative;
+    width: 3vw;
+    height: 4vh;
+    top: 37%;
+    left: 87.5%;
+    border: 2px solid #4C94CD;
+    border-radius: 25% 25% 25% 25%;
+    background: #000;
+    opacity: 1; }
+    .menu .line-menu {
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      border-radius: 15% 15% 15% 15%;
+      background: #FFFFFF; }
+    .menu .line-menu:nth-child(1) {
+      top: 15%; }
+    .menu .line-menu:nth-child(2) {
+      top: 45%; }
+    .menu .line-menu:nth-child(3) {
+      top: 75%; } }
 
 .sub-2 {
   position: absolute;

@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (min-width: 240px) and (max-width: 319px) {
   .menu {
     display: grid;
     position: relative;
@@ -68,7 +68,7 @@
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.3vh; } }
-@media (min-width: 491px) {
+@media (min-width: 320px) and (max-width: 491px) {
   .menu {
     display: grid;
     position: relative;
