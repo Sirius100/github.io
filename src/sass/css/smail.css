@@ -108,6 +108,7 @@
       top: 75%; }
 
   .navigation {
+    display: block;
     position: relative;
     top: 8vh;
     color: #fff;
@@ -120,7 +121,7 @@
     margin-right: auto; }
     .navigation .nav {
       position: relative;
-      top: 12px;
+      top: 24vh;
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
