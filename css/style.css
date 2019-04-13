@@ -65,7 +65,7 @@ header {
   .sub-1 .menu {
     display: grid;
     position: relative;
-    width: 3vw;
+    width: 2vw;
     height: 4vh;
     top: 37%;
     left: 87.5%;
@@ -76,7 +76,7 @@ header {
     .sub-1 .menu .line-menu {
       position: absolute;
       width: 100%;
-      height: 3px;
+      height: 2px;
       border-radius: 15% 15% 15% 15%;
       background: #FFFFFF; }
     .sub-1 .menu .line-menu:nth-child(1) {
@@ -107,7 +107,7 @@ header {
 
 @charset "UTF-8";
 /*вертикальное положение телефона */
-@media (min-width: 240px) and (max-width: 359px) {
+@media (min-width: 0px) and (max-width: 359px) {
   .sub-1 .menu {
     display: grid;
     position: relative;
@@ -148,7 +148,7 @@ header {
     .navigation span {
       position: absolute;
       top: 4vh;
-      left: 35vw;
+      left: 27vw;
       letter-spacing: 0.2vw;
       text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
     .navigation .nav {
@@ -190,15 +190,187 @@ header {
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.3vh; } }
+
+@charset "UTF-8";
 /*горизонтальное положение телефона */
-@media (min-width: 360px) and (max-width: 780px) {
+@media (min-width: 1281px) and (max-width: 1440px) {
   .sub-1 .menu {
     display: grid;
     position: relative;
-    width: 9vw;
-    height: 9vh;
-    top: 19%;
-    left: 79%;
+    width: 66px;
+    height: 3vh;
+    top: 37%;
+    left: 88.5%;
+    border: 2px solid #4C94CD;
+    border-radius: 25% 25% 25% 25%;
+    background: #000;
+    opacity: 1; }
+    .sub-1 .menu .line-menu {
+      width: 100%;
+      height: 2px;
+      border-radius: 15%;
+      background: #FFFFFF; }
+    .sub-1 .menu .line-menu:nth-child(1) {
+      top: 13%; }
+    .sub-1 .menu .line-menu:nth-child(2) {
+      top: 47%; }
+    .sub-1 .menu .line-menu:nth-child(3) {
+      top: 81%; }
+
+  .navigation {
+    display: block;
+    position: relative;
+    top: 8vh;
+    color: #fff;
+    width: 97vw;
+    height: 70vh;
+    border: 1px solid aqua;
+    border-radius: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .navigation span {
+      position: relative;
+      top: 3vh;
+      left: 0vw;
+      font-size: 25px; }
+    .navigation .nav {
+      position: relative;
+      top: 37vh;
+      list-style-type: none;
+      text-align: center;
+      color: #FFFFFF; }
+      .navigation .nav li {
+        position: absolute;
+        display: block;
+        text-align: center; }
+      .navigation .nav li:nth-child(1) {
+        top: -27vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(2) {
+        top: 9vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(3) {
+        top: -27vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(4) {
+        top: 9vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(5) {
+        top: -9vh;
+        left: 35vw; }
+
+  .but {
+    width: 26vw;
+    height: 6vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15%;
+    text-decoration: none;
+    background: #1FF46F;
+    font-family: jua;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    padding-top: 1.9vh; } }
+
+@charset "UTF-8";
+/*горизонтальное положение телефона */
+@media (min-width: 800px) and (max-width: 1280px) {
+  .sub-1 .menu {
+    display: grid;
+    position: relative;
+    width: 66px;
+    height: 36px;
+    top: 37%;
+    left: 84%;
+    border: 2px solid #4C94CD;
+    border-radius: 25% 25% 25% 25%;
+    background: #000;
+    opacity: 1; }
+    .sub-1 .menu .line-menu {
+      width: 100%;
+      height: 2px;
+      border-radius: 15%;
+      background: #FFFFFF; }
+    .sub-1 .menu .line-menu:nth-child(1) {
+      top: 13%; }
+    .sub-1 .menu .line-menu:nth-child(2) {
+      top: 47%; }
+    .sub-1 .menu .line-menu:nth-child(3) {
+      top: 81%; }
+
+  .navigation {
+    display: block;
+    position: relative;
+    top: 8vh;
+    color: #fff;
+    width: 97vw;
+    height: 70vh;
+    border: 1px solid aqua;
+    border-radius: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .navigation span {
+      position: relative;
+      top: 3vh;
+      left: 0vw;
+      font-size: 25px; }
+    .navigation .nav {
+      position: relative;
+      top: 37vh;
+      list-style-type: none;
+      text-align: center;
+      color: #FFFFFF; }
+      .navigation .nav li {
+        position: absolute;
+        display: block;
+        text-align: center; }
+      .navigation .nav li:nth-child(1) {
+        top: -27vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(2) {
+        top: 9vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(3) {
+        top: -27vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(4) {
+        top: 9vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(5) {
+        top: -9vh;
+        left: 35vw; }
+
+  .but {
+    width: 26vw;
+    height: 6vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15%;
+    text-decoration: none;
+    background: #1FF46F;
+    font-family: jua;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    padding-top: 1.9vh; } }
+
+@charset "UTF-8";
+/*горизонтальное положение телефона */
+@media (min-width: 480px) and (max-width: 799px) {
+  .sub-1 .menu {
+    display: grid;
+    position: relative;
+    width: 41px;
+    height: 35px;
+    top: 27%;
+    left: 84.5%;
     border: 2px solid #4C94CD;
     border-radius: 25% 25% 25% 25%;
     background: #000;
@@ -227,9 +399,14 @@ header {
     text-align: center;
     margin-left: auto;
     margin-right: auto; }
+    .navigation span {
+      position: relative;
+      top: 3vh;
+      left: 0vw;
+      font-size: 18px; }
     .navigation .nav {
       position: relative;
-      top: 22vh;
+      top: 37vh;
       list-style-type: none;
       text-align: center;
       color: #FFFFFF; }
@@ -255,7 +432,7 @@ header {
 
   .but {
     width: 26vw;
-    height: 11vh;
+    height: 6vh;
     display: inline-block;
     text-align: center;
     border-radius: 15%;
@@ -267,4 +444,88 @@ header {
     font-weight: normal;
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
-    padding-top: 2.3vh; } }
+    padding-top: 1.7vh; } }
+
+@charset "UTF-8";
+/*горизонтальное положение телефона */
+@media (min-width: 360px) and (max-width: 479px) {
+  .sub-1 .menu {
+    display: grid;
+    position: relative;
+    width: 11vw;
+    height: 7vh;
+    top: 24%;
+    left: 77%;
+    border: 2px solid #4C94CD;
+    border-radius: 25% 25% 25% 25%;
+    background: #000;
+    opacity: 1; }
+    .sub-1 .menu .line-menu {
+      width: 100%;
+      height: 2px;
+      border-radius: 15%;
+      background: #FFFFFF; }
+    .sub-1 .menu .line-menu:nth-child(1) {
+      top: 13%; }
+    .sub-1 .menu .line-menu:nth-child(2) {
+      top: 44%; }
+    .sub-1 .menu .line-menu:nth-child(3) {
+      top: 75%; }
+
+  .navigation {
+    display: block;
+    position: relative;
+    top: 8vh;
+    color: #fff;
+    width: 97vw;
+    height: 70vh;
+    border: 1px solid aqua;
+    border-radius: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .navigation span {
+      position: relative;
+      top: 3vh;
+      left: 0vw; }
+    .navigation .nav {
+      position: relative;
+      top: 37vh;
+      list-style-type: none;
+      text-align: center;
+      color: #FFFFFF; }
+      .navigation .nav li {
+        position: absolute;
+        display: block;
+        text-align: center; }
+      .navigation .nav li:nth-child(1) {
+        top: -27vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(2) {
+        top: 9vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(3) {
+        top: -27vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(4) {
+        top: 9vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(5) {
+        top: -9vh;
+        left: 35vw; }
+
+  .but {
+    width: 26vw;
+    height: 7vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15%;
+    text-decoration: none;
+    background: #1FF46F;
+    font-family: jua;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    padding-top: 1.3vh; } }
