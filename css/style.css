@@ -8,6 +8,16 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+@-webkit-keyframes bt-shadows {
+  from {
+    box-shadow: 5px 3px 3px 2px #6961B8; }
+  to {
+    box-shadow: 0 0 0 0 #FFFFFF; } }
+@keyframes bt-shadows {
+  from {
+    box-shadow: 5px 3px 3px 2px #6961B8; }
+  to {
+    box-shadow: 0 0 0 0 #FFFFFF; } }
 
 body {
   width: 99vw;
@@ -47,6 +57,15 @@ header {
       display: inline;
       text-align: center;
       margin-top: 20px; }
+      .navigation .nav li a {
+        -webkit-animation-name: bt-shadows;
+                animation-name: bt-shadows;
+        -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+        -webkit-animation-duration: 2s;
+                animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite; }
     .navigation .nav li:nth-child(5) {
       -webkit-animation-name: lay;
               animation-name: lay;
