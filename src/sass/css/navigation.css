@@ -19,3 +19,8 @@
       display: inline;
       text-align: center;
       margin-top: 20px; }
+    .navigation .nav li:nth-child(5) {
+      animation-name: lay;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate; }
