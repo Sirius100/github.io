@@ -1,4 +1,10 @@
 .sub-3 {
   position: absolute;
   top: 200vh;
+  display: grid;
+  grid-template-rows: 50% 50%;
   background: lawngreen; }
+  .sub-3 .karusel {
+    display: grid;
+    grid-template-rows: 85% 15%;
+    border: 2px solid red; }
