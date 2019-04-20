@@ -8,7 +8,6 @@
     display: flex
     flex-flow: column
     justify-content: center
-    //border: 2px solid red
     .slayder
       display: grid
       grid-template-columns: repeat(3, 1fr)
@@ -41,25 +40,30 @@
         border-radius: 0 25% 25% 0
         clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%)
         background-image: url("../img/conor.jpg")
-
+      .borders
+        border: 1px solid #BCF226
     .three-dot
       display: flex
-      background: #2AA799
+      background: #FFFFFF //#2AA799
       border-radius: 25%
       justify-content: center
       margin:
         left: auto
         right: auto
-      margin-top: 3px
+      margin-top: 5px
       width: 100px
       height: 5%
       div
         background: black
         border-radius: 50%
-        width: 20px
-        height: 100%
+        margin:
+          top:  auto
+          bottom: auto
+        width: 15px
+        height: 60%
       div:nth-child(n+2)
         margin-left: 2px
+
 
 
 

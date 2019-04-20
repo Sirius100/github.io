@@ -18,6 +18,16 @@
     box-shadow: 5px 3px 3px 2px #6961B8; }
   to {
     box-shadow: 0 0 0 0 #FFFFFF; } }
+@-webkit-keyframes bord-div {
+  from {
+    border: 5px solid blue; }
+  to {
+    border: 1px solid blue; } }
+@keyframes bord-div {
+  from {
+    border: 5px solid blue; }
+  to {
+    border: 1px solid blue; } }
 
 body {
   width: 99vw;
@@ -58,8 +68,6 @@ header {
       text-align: center;
       margin-top: 20px; }
       .navigation .nav li a {
-        -webkit-animation-name: bt-shadows;
-                animation-name: bt-shadows;
         -webkit-animation-direction: alternate;
                 animation-direction: alternate;
         -webkit-animation-duration: 2s;
@@ -100,7 +108,7 @@ header {
   position: fixed;
   top: 0vh;
   background: url("../img/brick.png");
-  background-size: cover; }
+  background-size: 100% 100%; }
   .sub-1 .menu {
     display: grid;
     position: relative;
@@ -184,21 +192,25 @@ header {
         -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
                 clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
         background-image: url("../img/conor.jpg"); }
+      .sub-3 .karusel .slayder .borders {
+        border: 1px solid #BCF226; }
     .sub-3 .karusel .three-dot {
       display: flex;
-      background: #2AA799;
+      background: #FFFFFF;
       border-radius: 25%;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 3px;
+      margin-top: 5px;
       width: 100px;
       height: 5%; }
       .sub-3 .karusel .three-dot div {
         background: black;
         border-radius: 50%;
-        width: 20px;
-        height: 100%; }
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 15px;
+        height: 60%; }
       .sub-3 .karusel .three-dot div:nth-child(n+2) {
         margin-left: 2px; }
 

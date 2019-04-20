@@ -38,20 +38,24 @@
         border-radius: 0 25% 25% 0;
         clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
         background-image: url("../img/conor.jpg"); }
+      .sub-3 .karusel .slayder .borders {
+        border: 1px solid #BCF226; }
     .sub-3 .karusel .three-dot {
       display: flex;
-      background: #2AA799;
+      background: #FFFFFF;
       border-radius: 25%;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 3px;
+      margin-top: 5px;
       width: 100px;
       height: 5%; }
       .sub-3 .karusel .three-dot div {
         background: black;
         border-radius: 50%;
-        width: 20px;
-        height: 100%; }
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 15px;
+        height: 60%; }
       .sub-3 .karusel .three-dot div:nth-child(n+2) {
         margin-left: 2px; }
