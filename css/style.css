@@ -147,11 +147,60 @@ header {
   top: 200vh;
   display: grid;
   grid-template-rows: 50% 50%;
-  background: lawngreen; }
+  background: #0B1E1B; }
   .sub-3 .karusel {
-    display: grid;
-    grid-template-rows: 85% 15%;
-    border: 2px solid red; }
+    display: flex;
+    flex-flow: column;
+    justify-content: center; }
+    .sub-3 .karusel .slayder {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 95%;
+      height: 90%;
+      border: 1px solid aqua;
+      border-radius: 25%;
+      background: #125E57;
+      margin-left: auto;
+      margin-right: auto; }
+      .sub-3 .karusel .slayder .item-slayder {
+        width: 95%;
+        height: 80%;
+        background: #EEEE6D;
+        background-position: center center;
+        background-size: 100% 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto; }
+      .sub-3 .karusel .slayder .item-1 {
+        border-radius: 25% 0 0 25%;
+        -webkit-clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+                clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        background-image: url("../img/bosco.jpg"); }
+      .sub-3 .karusel .slayder .item-2 {
+        background-image: url("../img/robert.jpg"); }
+      .sub-3 .karusel .slayder .item-3 {
+        border-radius: 0 25% 25% 0;
+        -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+                clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        background-image: url("../img/conor.jpg"); }
+    .sub-3 .karusel .three-dot {
+      display: flex;
+      background: #2AA799;
+      border-radius: 25%;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3px;
+      width: 100px;
+      height: 5%; }
+      .sub-3 .karusel .three-dot div {
+        background: black;
+        border-radius: 50%;
+        width: 20px;
+        height: 100%; }
+      .sub-3 .karusel .three-dot div:nth-child(n+2) {
+        margin-left: 2px; }
 
 .wrapper {
   display: grid;
