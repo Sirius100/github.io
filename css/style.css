@@ -34,6 +34,24 @@ body {
   height: 300vh;
   background: #96999C; }
 
+.examle-1 {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40% 60%;
+  border: 1px solid red;
+  grid-template-areas: ". header ." "html css js";
+  text-align: center; }
+  .examle-1 .hero {
+    grid-area: header; }
+  .examle-1 .html {
+    grid-area: html; }
+  .examle-1 .css {
+    grid-area: css; }
+  .examle-1 .js {
+    grid-area: js; }
+
 header {
   width: inherit;
   height: 15vh;
@@ -97,6 +115,15 @@ header {
     background: aqua;
     opacity: 0.1; }
 
+.slider-1 {
+  background-image: url("../img/bosco.jpg"); }
+
+.slider-2 {
+  background-image: url("../img/robert.jpg"); }
+
+.slider-3 {
+  background-image: url("../img/conor.jpg"); }
+
 @font-face {
   font-family: "jua";
   src: url("../src/Font/Jua/Jua-Regular.ttf"); }
@@ -139,16 +166,47 @@ header {
   display: grid;
   grid-template-rows: 50px auto;
   grid-gap: 2px 2px;
-  background: darkcyan; }
+  background: darkcyan;
+  overflow: hidden; }
   .sub-2 .tabs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "GULP GULP GULP GULP WEBPACK WEBPACK WEBPACK WEBPACK";
+    align-content: stretch;
+    background: #475C59;
     text-align: center; }
+    .sub-2 .tabs .gulp {
+      grid-area: GULP; }
+    .sub-2 .tabs .gulp:checked ~ .CONTENT-1 {
+      -webkit-transform: translateX(-100vw);
+              transform: translateX(-100vw); }
+    .sub-2 .tabs .webpack {
+      grid-area: WEBPACK; }
     .sub-2 .tabs a {
-      text-decoration: none; }
+      text-decoration: none;
+      padding-top: 15px;
+      border-left: 1px solid #EDEEEC;
+      border-right: 1px solid #EDEEEC;
+      color: #7E7067;
+      font-family: sans-serif;
+      font-size: large;
+      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310; }
+    .sub-2 .tabs a:hover {
+      color: #FFFFFF; }
   .sub-2 .text-tools {
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+    .sub-2 .text-tools .CONTENT-1 {
+      border: 1px solid red;
+      background: #0B1E1B;
+      position: relative;
+      left: 90vw;
+      -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%);
+              clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
+    .sub-2 .text-tools .CONTENT-1:checked {
+      -webkit-transform: translateX(-100vw);
+              transform: translateX(-100vw); }
 
 .sub-3 {
   position: absolute;
@@ -193,7 +251,7 @@ header {
                 clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
         background-image: url("../img/conor.jpg"); }
       .sub-3 .karusel .slayder .borders {
-        border: 1px solid #BCF226; }
+        border: 4px solid #BCF226; }
     .sub-3 .karusel .three-dot {
       display: flex;
       background: #FFFFFF;

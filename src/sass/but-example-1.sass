@@ -1,0 +1,21 @@
+.examle-1
+  width: 100%
+  height: 500px
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: 40% 60%
+  border: 1px solid red
+  grid-template-areas: ". header ." "html css js"
+  text-align: center
+  .hero
+    grid-area: header
+
+  .html
+    grid-area: html
+
+  .css
+    grid-area: css
+
+  .js
+    grid-area: js
+
