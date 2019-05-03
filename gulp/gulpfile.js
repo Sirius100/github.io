@@ -18,7 +18,7 @@ const sass            = require('gulp-ruby-sass');
 const concat          = require('gulp-concat');
 const prefixer        = require('gulp-autoprefixer');
 const fs              = require('fs');
-
+const sourcesmap      = require ('gulp-sourcemaps');
 
 /*команда создает каталог директорий внутри проекта:
 - distr этот каталог будет пушится в github.<name_project>
@@ -94,9 +94,11 @@ gulp.task('sass', function () {
     sass('../src/sass/*.sass')
     .on('error', sass.logError)
         .pipe(gulp.dest('../src/sass/css/'))
+        .pipe(sourcesmap.init())
         .pipe(prefixer())
         .pipe(concat('style.css'))
         .pipe(prefixer())
+        .pipe(sourcesmap.write())
         .pipe(gulp.dest('../css'))
 });
 
