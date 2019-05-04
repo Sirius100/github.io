@@ -18,52 +18,52 @@
 
             <div class="html">
                 <textarea class="textaray"  disabled cols="100" rows="3">
-                    <div class="hero">
-                        <button class="butt">Ok</button>
-                        <button class="butt">End</button>
-                    </div>
+<div class="hero">
+    <button class="butt">Ok</button>
+    <button class="butt">End</button>
+</div>
                 </textarea>
             </div>
 
             <div class="css">
                 <textarea class="textaray" disabled cols="80" rows="15">
-                    .hero
-                      display: grid
-                      grid-area: header
-                      border: 1px solid aqua
-                      justify-items: center
-                      grid-template-columns: repeat(2, 1fr)
-                      align-items: center
-                       .butt
-                         background-color: #000000
-                         width: 60px
-                         height: 45px
-                         border-radius: 25%
-                       .butt:nth-of-type(odd)
-                         background-color: #1FF46F
-                       .butt:nth-of-type(even)
-                         background-color: #BCF226
-                       .butt-2
-                         background-color: #CB067C !important
+.hero
+  display: grid
+  grid-area: header
+  border: 1px solid aqua
+  justify-items: center
+  grid-template-columns: repeat(2, 1fr)
+  align-items: center
+   .butt
+     background-color: #000000
+     width: 60px
+     height: 45px
+     border-radius: 25%
+   .butt:nth-of-type(odd)
+     background-color: #1FF46F
+   .butt:nth-of-type(even)
+     background-color: #BCF226
+   .butt-2
+     background-color: #CB067C !important
                 </textarea>
             </div>
             <div class="js">
                 <textarea class="textaray" disabled cols="80" rows="15">
-                 window.onload = function () {
-                    var items = document.querySelectorAll('.butt', '.butt-2');
+window.onload = function () {
+var items = document.querySelectorAll('.butt', '.butt-2');
 
-                    function changecolor() {
-                       let changeitem = items;
-                       if (changeitem[0].className == 'butt'){
-                          changeitem[0].className = 'butt butt-2';
-                          changeitem[1].className = 'butt';
-                       } else{
-                           changeitem[0].className = 'butt';
-                           changeitem[1].className = 'butt butt-2';
-                          }
-                    }
-                    setInterval(changecolor, 200);
-                 }
+function changecolor() {
+   let changeitem = items;
+   if (changeitem[0].className == 'butt'){
+      changeitem[0].className = 'butt butt-2';
+      changeitem[1].className = 'butt';
+   } else{
+       changeitem[0].className = 'butt';
+       changeitem[1].className = 'butt butt-2';
+      }
+}
+setInterval(changecolor, 200);
+}
                 </textarea>
             </div>
         </div>
