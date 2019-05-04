@@ -34,14 +34,16 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
-    .sub-2 .text-tools #CONTENT-1 {
+    .sub-2 .text-tools .CONTENT-1 {
       border: 1px solid red;
       background: #0B1E1B;
       position: relative;
       left: 90vw;
       width: 110vw;
       clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
-    .sub-2 .text-tools #CONTENT-1:active {
+    .sub-2 .text-tools .CONTENT-1:active {
       z-index: 100;
       transform: translateX(-101vw);
       transition-duration: 3s; }
+    .sub-2 .text-tools .read-content {
+      left: 5%; }
