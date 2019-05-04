@@ -50,19 +50,19 @@
             <div class="js">
                 <textarea class="textaray" disabled cols="80" rows="15">
 window.onload = function () {
-var items = document.querySelectorAll('.butt', '.butt-2');
+    var items = document.querySelectorAll('.butt', '.butt-2');
 
-function changecolor() {
-   let changeitem = items;
-   if (changeitem[0].className == 'butt'){
-      changeitem[0].className = 'butt butt-2';
-      changeitem[1].className = 'butt';
-   } else{
-       changeitem[0].className = 'butt';
-       changeitem[1].className = 'butt butt-2';
-      }
-}
-setInterval(changecolor, 200);
+    function changecolor() {
+        let changeitem = items;
+        if (changeitem[0].className == 'butt'){
+            changeitem[0].className = 'butt butt-2';
+            changeitem[1].className = 'butt';
+        } else{
+            changeitem[0].className = 'butt';
+            changeitem[1].className = 'butt butt-2';
+        }
+    }
+    setInterval(changecolor, 200);
 }
                 </textarea>
             </div>
