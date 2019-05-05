@@ -1,4 +1,6 @@
 window.onload = function () {
+
+//файл содержит реализацию анимацию кнопок для страницы button.html
     var items = document.querySelectorAll('.butt', '.butt-2');
 
     function changecolor() {
