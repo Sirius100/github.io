@@ -1,5 +1,14 @@
-var Sub2_Div_Animation = {
-
+function Sub2_Div_Animation (htmlcomponent, cssclass, addclasscss)  {
+    const content = document.getElementsByClassName(htmlcomponent)[0];
+    const selector = document.querySelector(cssclass);
+    newstyle : (function() {
+        if (selector.className == cssclass){
+            selector.className = addclasscss;
+        }else {selector.className = cssclass};
+    });
+    playanimation: (function () {
+         content.addEventListener("click", this.newstyle);
+    });
 }
 window.onload = function () {
 
@@ -28,4 +37,5 @@ window.onload = function () {
     }else {
         explor();
     }
+
 };
