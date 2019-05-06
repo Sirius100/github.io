@@ -8,8 +8,8 @@
   overflow: hidden; }
   .sub-2 .tabs {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-areas: "GULP GULP GULP GULP WEBPACK WEBPACK WEBPACK WEBPACK WEBPACK";
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "GULP GULP GULP GULP WEBPACK WEBPACK WEBPACK WEBPACK";
     align-content: stretch;
     background: #475C59;
     text-align: center; }
@@ -39,10 +39,11 @@
       background: #0B1E1B;
       position: relative;
       left: 90vw;
-      width: 110vw;
+      width: 100vw;
       clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
     .sub-2 .text-tools .CONTENT-1:active {
       z-index: 100;
+      width: 110vw;
       transform: translateX(-101vw);
       transition-duration: 3s; }
     .sub-2 .text-tools .read-content {

@@ -1,15 +1,17 @@
+var Sub2_Div_Animation = {
+
+}
 window.onload = function () {
 
     const div_content = document.getElementsByClassName('CONTENT-1')[0];
     const divgulp = document.querySelector('.CONTENT-1');//переменная выплывающего дива с текстом для галпа
-    var div_gulp = divgulp;
 
 //  анимация перемещения дива галпа
     function div_gulpAnimation() {
-        if (div_gulp.className == 'CONTENT-1') {
-            div_gulp.className = 'read-content';
+        if (divgulp.className == 'CONTENT-1') {
+            divgulp.className = 'read-content';
         } else {
-            div_gulp.className = 'CONTENT-1';
+            divgulp.className = 'CONTENT-1';
             }
     }
 //функция для браузера firefox
