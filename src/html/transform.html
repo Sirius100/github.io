@@ -1,10 +1,92 @@
 <!DOCTYPE html>
+<!--это файл веб-страницы где будут примеры использования функции transform-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TRANSFORM</title>
+    <title>Классы TRANSFORM</title>
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
+    <section>
+        <div class="examle-1">
 
+            <div class="heroy">
+                    <div class="card">
+                        <div class="item" id="a"></div>
+                    </div>
+                    <div class="card">
+                        <div class="item" id="b"></div>
+                    </div>
+                    <div class="card">
+                        <div class="item" id="c"></div>
+                    </div>
+            </div>
+
+
+            <div class="html">
+                <textarea class="textaray"  disabled cols="100" rows="3">
+- var count_item = 3;
+section.screen.sub-1
+  .wrapper
+    - for (var i=0; i<count_item; i++){
+      .card
+        .item
+    - }
+                </textarea>
+            </div>
+
+            <div class="css">
+                <textarea class="textaray" disabled cols="80" rows="15">
+heroy
+  display: grid
+  grid-area: header
+  border: 1px solid aqua
+  justify-items: center
+  grid-template-columns: repeat(3, 1fr)
+  align-items: center
+  //background-color: #0F0109
+  .card
+    perspective: 1000px
+    transform-style: preserve-3d
+    #a
+      background-image: url("../img/trans1.jpg")
+    #b
+      background-image: url("../img/trans2.jpeg")
+    #c
+      background-image: url("../img/trans3.jpg")
+    .item
+      width: 100px
+      height: 140px
+      background-color: red
+      transition: transform 0.2s
+                </textarea>
+            </div>
+            <div class="js">
+                <textarea class="textaray" disabled cols="80" rows="15">
+const cards = document.querySelectorAll('.card');
+for(let i = 0; i < cards.length; i++){
+    const card = cards[i];
+    card.addEventListener('mousemove', rotate);
+    card.addEventListener('mouseout', stoprotate);
+};
+
+function  rotate(event) {
+    const item = this.querySelector('.item');
+    let Wbase = item.offsetWidth / 2 ;
+    let Hbase = item.offsetHeight / 2;
+    item.style.transform = 'rotateY('+((event.offsetX - Wbase) / 5)+'deg) rotateX('+ -
+        ((event.offsetY - Hbase) / 5)+'deg)';
+}
+
+function stoprotate(event) {
+    const item = this.querySelector('.item');
+    item.style.transform = 'rotate(0)';
+}
+                </textarea>
+            </div>
+        </div>
+    </section>
+<script src="../../js/transform.js"></script>
 </body>
 </html>

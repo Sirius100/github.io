@@ -19,6 +19,7 @@ const concat          = require('gulp-concat');
 const prefixer        = require('gulp-autoprefixer');
 const fs              = require('fs');
 const sourcesmap      = require ('gulp-sourcemaps');
+const pug             = require ('gulp-pug');
 
 /*команда создает каталог директорий внутри проекта:
 - distr этот каталог будет пушится в github.<name_project>
@@ -87,6 +88,15 @@ gulp.task('relis', () =>
     gulp.src('../js/*.js')
         .pipe(gulp.dest('../distr'))
 );
+//запуск pug
+gulp.task('pug', function buildHTML() {
+  return gulp.src('../src/pug/practick.jade')
+  .pipe(pug({
+      pretty: true
+    // Your options in here.
+  }))
+      .pipe(gulp.dest('../src/html/'))
+});
 
 //команда запуска препроцессора sass
 //создает сss файл из sass файла

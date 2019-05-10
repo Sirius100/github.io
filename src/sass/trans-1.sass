@@ -1,0 +1,23 @@
+.heroy
+  display: grid
+  grid-area: header
+  border: 1px solid aqua
+  justify-items: center
+  grid-template-columns: repeat(3, 1fr)
+  align-items: center
+  //background-color: #0F0109
+  .card
+    perspective: 10000px
+    transform-style: preserve-3d
+    #a
+      background-image: url("../img/trans1.jpg")
+    #b
+      background-image: url("../img/trans2.jpeg")
+    #c
+      background-image: url("../img/trans3.jpg")
+    .item
+      width: 100px
+      height: 140px
+      background-color: red
+      transition: transform 0.2s
+
