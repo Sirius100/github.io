@@ -9,8 +9,8 @@ function  rotate(event) {
     const item = this.querySelector('.item');
     let Wbase = item.offsetWidth / 2 ;
     let Hbase = item.offsetHeight / 2;
-    item.style.transform = 'rotateY('+((event.offsetX - Wbase) / 5)+'deg) rotateX('+ -
-        ((event.offsetY - Hbase) / 5)+'deg)';
+    item.style.transform = 'rotateY('+((event.offsetX - Wbase) / 4)+'deg) rotateX('+ -
+        ((event.offsetY - Hbase) / 4)+'deg)';
 
 }
 
