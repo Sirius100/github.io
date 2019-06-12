@@ -108,7 +108,7 @@ gulp.task('sass', function () {
         .pipe(prefixer())
         .pipe(concat('style.css'))
         .pipe(prefixer())
-        .pipe(sourcesmap.write())
+//        .pipe(sourcesmap.write())
         .pipe(gulp.dest('../css'))
 });
 

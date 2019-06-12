@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*горизонтальное положение телефона */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .sub-1 .menu {
+    display: grid;
+    position: relative;
+    width: 66px;
+    height: 3vh;
+    top: 37%;
+    left: 88.5%;
+    border: 2px solid #4C94CD;
+    border-radius: 25% 25% 25% 25%;
+    background: #000;
+    opacity: 1; }
+    .sub-1 .menu .line-menu {
+      width: 100%;
+      height: 2px;
+      border-radius: 15%;
+      background: #FFFFFF; }
+    .sub-1 .menu .line-menu:nth-child(1) {
+      top: 13%; }
+    .sub-1 .menu .line-menu:nth-child(2) {
+      top: 47%; }
+    .sub-1 .menu .line-menu:nth-child(3) {
+      top: 81%; }
+
+  .navigation {
+    display: block;
+    position: relative;
+    top: 8vh;
+    color: #fff;
+    width: 97vw;
+    height: 70vh;
+    border: 1px solid aqua;
+    border-radius: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .navigation span {
+      position: relative;
+      top: 3vh;
+      left: 0vw;
+      font-size: 25px; }
+    .navigation .nav {
+      position: relative;
+      top: 37vh;
+      list-style-type: none;
+      text-align: center;
+      color: #FFFFFF; }
+      .navigation .nav li {
+        position: absolute;
+        display: block;
+        text-align: center; }
+      .navigation .nav li:nth-child(1) {
+        top: -27vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(2) {
+        top: 9vh;
+        left: 6vw; }
+      .navigation .nav li:nth-child(3) {
+        top: -27vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(4) {
+        top: 9vh;
+        left: 64vw; }
+      .navigation .nav li:nth-child(5) {
+        top: -9vh;
+        left: 35vw; }
+
+  .but {
+    width: 26vw;
+    height: 6vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15%;
+    text-decoration: none;
+    background: #1FF46F;
+    font-family: jua;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    padding-top: 1.9vh; } }

@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../chess_app/app/pug/main.jade" line="13" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98ca88c4-92c7-4439-8d23-e87d81b5da56" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sirius.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="github.io" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5375">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/pug/main.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_global-var.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/sass/_global-var.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="19" selection-start-column="19" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_mix.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/sass/_mix.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="chess_board.sass" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/sass/chess_board.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="66">
+                  <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/html/main.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="308">
+                  <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="506">
+                  <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="practick-3.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../practick/src/js/practick-3.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1320">
+                  <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="class_chess_board.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../chess_app/app/js/class_chess_board.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="775">
+                  <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Pug File" />
+        <option value="Jade File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>section</find>
+      <find>div</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>div</replace>
+      <replace>section</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/sass/sub-2.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/sub2.js" />
+        <option value="$PROJECT_DIR$/practick.html" />
+        <option value="$PROJECT_DIR$/js/practick.js" />
+        <option value="$PROJECT_DIR$/gulp/package.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/practick.pug" />
+        <option value="$PROJECT_DIR$/src/pug/index.pug" />
+        <option value="$PROJECT_DIR$/gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/pug/fdff.pug" />
+        <option value="$PROJECT_DIR$/src/pug/practick.pug" />
+        <option value="$PROJECT_DIR$/src/pug/practick.jade" />
+        <option value="$PROJECT_DIR$/../practick/gulp/package.json" />
+        <option value="$PROJECT_DIR$/../practick/src/pug/head.jade" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/wrapper.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/head.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/pug/section-1.jade" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/global_theme_color.sass" />
+        <option value="$PROJECT_DIR$/src/sass/mixin.sass" />
+        <option value="$PROJECT_DIR$/src/sass/but-example-1.sass" />
+        <option value="$PROJECT_DIR$/js/transform.js" />
+        <option value="$PROJECT_DIR$/src/html/transform.html" />
+        <option value="$PROJECT_DIR$/../practick/src/html/practick.html" />
+        <option value="$PROJECT_DIR$/src/sass/trans-1.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/js/practick-2.js" />
+        <option value="$PROJECT_DIR$/../practick/src/js/practick.js" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/cickle.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/main.sass" />
+        <option value="$PROJECT_DIR$/../practick/gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/../practick/src/pug/index.jade" />
+        <option value="$PROJECT_DIR$/../practick/src/pug/practick.jade" />
+        <option value="$PROJECT_DIR$/../practick/src/html/index.html" />
+        <option value="$PROJECT_DIR$/../practick/src/pug/section-2.jade" />
+        <option value="$PROJECT_DIR$/../practick/src/js/realis_water.js" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/sub-2.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/sub-1.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/sass/mix.sass" />
+        <option value="$PROJECT_DIR$/../practick/src/js/practick-3.js" />
+        <option value="$PROJECT_DIR$/../chess_app/README.md" />
+        <option value="$PROJECT_DIR$/../chess_app/gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/../chess_app/app/sass/global-var.sass" />
+        <option value="$PROJECT_DIR$/../chess_app/app/sass/mix.sass" />
+        <option value="$PROJECT_DIR$/../chess_app/app/sass/_global-var.sass" />
+        <option value="$PROJECT_DIR$/../chess_app/app/sass/_mix.sass" />
+        <option value="$PROJECT_DIR$/../chess_app/app/css/style.css" />
+        <option value="$PROJECT_DIR$/../chess_app/app/html/main.html" />
+        <option value="$PROJECT_DIR$/../chess_app/app/js/main.js" />
+        <option value="$PROJECT_DIR$/../chess_app/app/pug/main.jade" />
+        <option value="$PROJECT_DIR$/../chess_app/app/sass/chess_board.sass" />
+        <option value="$PROJECT_DIR$/../chess_app/app/js/class_chess_board.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../chess_app/gulp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/gulp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../practick/gulp/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../chess_app/gulp/package.json" />
+      <path value="$PROJECT_DIR$/gulp/package.json" />
+      <path value="$PROJECT_DIR$/../practick/gulp/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4" />
+    <option name="width" value="1912" />
+    <option name="height" value="518" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557438544923" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="/usr/local/bin/uglifyjs" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../chess_app/gulp" />
+      <recent name="$PROJECT_DIR$/../practick/gulp" />
+      <recent name="$PROJECT_DIR$/../practick/src/pug" />
+      <recent name="$PROJECT_DIR$/../practick/src/js" />
+      <recent name="$PROJECT_DIR$/../practick" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../chess_app/gulp" />
+      <recent name="$PROJECT_DIR$/../practick/gulp" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/src/sass/css" />
+      <recent name="$PROJECT_DIR$/src/sass" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.main.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github.io/src/html/index.html" />
+    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github.io/app/html/main.html" />
+    <configuration name="slayder" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" uri="http://localhost:63342/github.io/index.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.slayder" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.main.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98ca88c4-92c7-4439-8d23-e87d81b5da56" name="Default" comment="" />
+      <created>1554562226374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554562226374</updated>
+      <workItem from="1556802270150" duration="11047000" />
+      <workItem from="1557432150799" duration="2137000" />
+      <workItem from="1557438192328" duration="371000" />
+    </task>
+    <task id="LOCAL-00042" summary="добавил в стили на адаптивку для устройств до 360*491">
+      <created>1555068494922</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1555068494922</updated>
+    </task>
+    <task id="LOCAL-00043" summary="добавил в стили на адаптивку для устройств до 240-340">
+      <created>1555076094913</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1555076094914</updated>
+    </task>
+    <task id="LOCAL-00044" summary="добавил в стили на адаптивку для устройств до 240-340">
+      <created>1555077103324</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1555077103324</updated>
+    </task>
+    <task id="LOCAL-00045" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555077287544</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1555077287544</updated>
+    </task>
+    <task id="LOCAL-00046" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555077402880</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1555077402881</updated>
+    </task>
+    <task id="LOCAL-00047" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555078191058</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1555078191058</updated>
+    </task>
+    <task id="LOCAL-00048" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555084181685</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1555084181685</updated>
+    </task>
+    <task id="LOCAL-00049" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555084623211</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1555084623211</updated>
+    </task>
+    <task id="LOCAL-00050" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555084982008</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1555084982009</updated>
+    </task>
+    <task id="LOCAL-00051" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555085310605</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1555085310605</updated>
+    </task>
+    <task id="LOCAL-00052" summary="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении">
+      <created>1555085454233</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1555085454234</updated>
+    </task>
+    <task id="LOCAL-00053" summary="разобрался почему телефон коряво отображал сайт (почистил кеш браузера телефона)">
+      <created>1555085724259</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1555085724259</updated>
+    </task>
+    <task id="LOCAL-00054" summary="разобрался почему телефон коряво отображал сайт (почистил кеш браузера телефона)">
+      <created>1555086459460</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1555086459460</updated>
+    </task>
+    <task id="LOCAL-00055" summary="разобрался почему телефон коряво отображал сайт (почистил кеш браузера телефона)">
+      <created>1555086594549</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1555086594549</updated>
+    </task>
+    <task id="LOCAL-00056" summary="разобрался почему телефон коряво отображал сайт (почистил кеш браузера телефона)">
+      <created>1555086995000</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1555086995000</updated>
+    </task>
+    <task id="LOCAL-00057" summary=".navigation добавил свойство display:block &#10;и пришлось изменить после этого высоту .nav">
+      <created>1555087253369</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1555087253369</updated>
+    </task>
+    <task id="LOCAL-00058" summary=".navigation добавил свойство display:block &#10;и пришлось изменить после этого высоту .nav">
+      <created>1555087597001</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1555087597001</updated>
+    </task>
+    <task id="LOCAL-00059" summary="настроил конкантенацию медиа запросов в конец главного файла стилей">
+      <created>1555089853760</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1555089853761</updated>
+    </task>
+    <task id="LOCAL-00060" summary="настроил конкантенацию медиа запросов в конец главного файла стилей">
+      <created>1555090175000</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1555090175000</updated>
+    </task>
+    <task id="LOCAL-00061" summary="настроил конкантенацию медиа запросов в конец главного файла стилей">
+      <created>1555090733354</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1555090733354</updated>
+    </task>
+    <task id="LOCAL-00062" summary="настроил конкантенацию медиа запросов в конец главного файла стилей">
+      <created>1555091778032</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1555091778032</updated>
+    </task>
+    <task id="LOCAL-00063" summary="настроил конкантенацию медиа запросов в конец главного файла стилей">
+      <created>1555096953585</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1555096953585</updated>
+    </task>
+    <task id="LOCAL-00064" summary="добавил адаптивку на несколько устройств">
+      <created>1555171583864</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1555171583864</updated>
+    </task>
+    <task id="LOCAL-00065" summary="новая концепция на слайдерах">
+      <created>1555440404815</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1555440404816</updated>
+    </task>
+    <task id="LOCAL-00066" summary="новая концепция на слайдерах">
+      <created>1555441877058</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1555441877058</updated>
+    </task>
+    <task id="LOCAL-00067" summary="новая концепция на слайдерах">
+      <created>1555445941914</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1555445941914</updated>
+    </task>
+    <task id="LOCAL-00068" summary="новая концепция на слайдерах">
+      <created>1555774177059</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1555774177062</updated>
+    </task>
+    <task id="LOCAL-00069" summary="новая концепция на слайдерах">
+      <created>1555790867839</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1555790867839</updated>
+    </task>
+    <task id="LOCAL-00070" summary="новая концепция на слайдерах">
+      <created>1555790916171</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1555790916171</updated>
+    </task>
+    <task id="LOCAL-00071" summary="новая концепция на слайдерах">
+      <created>1556038208062</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1556038208063</updated>
+    </task>
+    <task id="LOCAL-00072" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556904006262</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1556904006263</updated>
+    </task>
+    <task id="LOCAL-00073" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556904245836</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1556904245836</updated>
+    </task>
+    <task id="LOCAL-00074" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556907729480</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1556907729480</updated>
+    </task>
+    <task id="LOCAL-00075" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556984662885</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1556984662885</updated>
+    </task>
+    <task id="LOCAL-00076" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556984945214</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1556984945214</updated>
+    </task>
+    <task id="LOCAL-00077" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556985829835</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1556985829835</updated>
+    </task>
+    <task id="LOCAL-00078" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556985923179</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1556985923179</updated>
+    </task>
+    <task id="LOCAL-00079" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556985978451</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1556985978451</updated>
+    </task>
+    <task id="LOCAL-00080" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556987489476</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1556987489476</updated>
+    </task>
+    <task id="LOCAL-00081" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556987608819</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1556987608820</updated>
+    </task>
+    <task id="LOCAL-00082" summary="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов">
+      <created>1556987685288</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1556987685288</updated>
+    </task>
+    <task id="LOCAL-00083" summary="компонент div класса CONTENT-1 научился перехватывать событие onclick">
+      <created>1557079877755</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1557079877755</updated>
+    </task>
+    <task id="LOCAL-00084" summary="компонент div класса CONTENT-1 научился перехватывать событие onclick">
+      <created>1557127183521</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1557127183521</updated>
+    </task>
+    <task id="LOCAL-00085" summary="замена группы функций отвечающих за анимацию класса CONTENT-1 на класс-объект">
+      <created>1557171801337</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1557171801345</updated>
+    </task>
+    <task id="LOCAL-00086" summary="добавил анимацию  в раздел transform">
+      <created>1557516078731</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1557516078733</updated>
+    </task>
+    <task id="LOCAL-00087" summary="добавил анимацию  в раздел transform">
+      <created>1557516216069</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1557516216070</updated>
+    </task>
+    <task id="LOCAL-00088" summary="добавил анимацию  в раздел transform">
+      <created>1557678345011</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1557678345012</updated>
+    </task>
+    <task id="LOCAL-00089" summary="добавил анимацию  в раздел transform">
+      <created>1557684416853</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1557684416853</updated>
+    </task>
+    <task id="LOCAL-00090" summary="добавил анимацию  в раздел transform">
+      <created>1558300837495</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1558300837497</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13555000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="0" width="1928" height="1048" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50053364" side_tool="true" weight="0.2850877" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3283433" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4994664" weight="0.118421055" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4994664" weight="0.07707317" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2289221" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32894737" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.2497332" />
+      <window_info id="Favorites" order="0" side_tool="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4994664" weight="0.16367266" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info id="Learn" order="6" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32894737" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.2860262" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="0" side_tool="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4994664" visible="true" weight="0.22258772" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50053364" side_tool="true" weight="0.3991228" />
+      <window_info id="Learn" order="6" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32894737" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16328709" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32894737" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.2497332" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4994664" weight="0.23574561" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавил фоновых картинок" />
+    <MESSAGE value="добавил ceтку, 3 секции и заготовку под меню" />
+    <MESSAGE value="добавил backgrounds for section" />
+    <MESSAGE value="не большие правки в sub-1.2.3" />
+    <MESSAGE value="дополнил gulpfile.js" />
+    <MESSAGE value="синхронизация файлов проекта" />
+    <MESSAGE value="допилил блок MENU и делаю выпадающий горизонтальный список" />
+    <MESSAGE value="добавил адаптивку на устройства до 480px" />
+    <MESSAGE value="добавил шрифтов" />
+    <MESSAGE value="запилил адаптивку для устройств до 480px" />
+    <MESSAGE value="добавил стили на адаптивку для устройств до 480px" />
+    <MESSAGE value="не большие изменения добавил в стили на адаптивку для устройств до 480px" />
+    <MESSAGE value="изменения добавил в стили на адаптивку для устройств до 500px" />
+    <MESSAGE value="добавил в стили на адаптивку для устройств до 360*491" />
+    <MESSAGE value="добавил в стили на адаптивку для устройств до 240-340" />
+    <MESSAGE value="добавил в стили на media запрос для устройств до 240-340&#10;в вертикальном положении" />
+    <MESSAGE value="разобрался почему телефон коряво отображал сайт (почистил кеш браузера телефона)" />
+    <MESSAGE value=".navigation добавил свойство display:block &#10;и пришлось изменить после этого высоту .nav" />
+    <MESSAGE value="настроил конкантенацию медиа запросов в конец главного файла стилей" />
+    <MESSAGE value="добавил адаптивку на несколько устройств" />
+    <MESSAGE value="новая концепция на слайдерах" />
+    <MESSAGE value="добавил реализацию мигания кнопок на js, данный код можно использовать для любых других компонентов" />
+    <MESSAGE value="компонент div класса CONTENT-1 научился перехватывать событие onclick" />
+    <MESSAGE value="замена группы функций отвечающих за анимацию класса CONTENT-1 на класс-объект" />
+    <MESSAGE value="добавил анимацию  в раздел transform" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил анимацию  в раздел transform" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../chess_app/app/js/class_chess_board.js</url>
+          <line>93</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../chess_app/app/js/class_chess_board.js</url>
+          <line>94</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../chess_app/app/js/class_chess_board.js</url>
+          <line>95</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="head" />
+        <watch expression="this.items" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../practick/package.nuspec" />
+    <entry file="file://$PROJECT_DIR$/../practick/rollup.config.js" />
+    <entry file="file://$PROJECT_DIR$/../practick/shrinkwrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="52" column="15" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/gulp/node_modules/orchestrator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/practick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/practick.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/practick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/wrapper.sass" />
+    <entry file="file://$PROJECT_DIR$/src/html/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/css/sub-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/transform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/mixin.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/trans-1.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/but-example-1.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/sub-3.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/gulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/js/practick-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/cickle.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/head.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/pug/head.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/js/practick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/pug/section-1.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/html/practick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/pug/practick.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bosco.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/pug/section-2.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/js/realis_water.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/global_theme_color.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/mix.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/sub-2.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/gulp/node_modules/chokidar/lib/fsevents-handler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/sass/sub-1.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/gulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/pug/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#src#0;n#img#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../practick/src/js/practick-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/html/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/sass/_global-var.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/sass/_mix.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/pug/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/js/class_chess_board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chess_app/app/sass/chess_board.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

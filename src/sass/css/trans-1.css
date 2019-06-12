@@ -1,0 +1,21 @@
+.heroy {
+  display: grid;
+  grid-area: header;
+  border: 1px solid aqua;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center; }
+  .heroy .card {
+    perspective: 100px;
+    transform-style: preserve-3d; }
+    .heroy .card #a {
+      background-image: url("../img/trans1.jpg"); }
+    .heroy .card #b {
+      background-image: url("../img/trans2.jpeg"); }
+    .heroy .card #c {
+      background-image: url("../img/trans3.jpg"); }
+    .heroy .card .item {
+      width: 150px;
+      height: 180px;
+      background-color: yellow;
+      transition: transform 0.5s; }

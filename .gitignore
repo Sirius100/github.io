@@ -1,0 +1,8 @@
+archive
+./gulp
+node_modules
+package-lock.json
+js/empty.js
+
+
+git remote set-url origin https://github.com/<user_name>/<repo_name>.git
