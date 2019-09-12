@@ -1,12 +1,12 @@
-.scale {
+.conteiner_scale {
   display: grid;
-  grid-template-columns: repeat(22, 1fr);
+  grid-template-columns: repeat(19, 1fr);
   grid-column-gap: 5px;
   position: fixed;
   width: 100%;
   height: 100%;
   z-index: 10;
-  display: none; }
-  .scale div {
+  /*display: none */ }
+  .conteiner_scale .setka {
     background: aqua;
     opacity: 0.1; }
