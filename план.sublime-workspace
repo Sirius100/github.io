@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-top\tabc"
+			],
+			[
+				"fo",
+				"font-family\tabc"
+			],
+			[
+				"a",
+				"ai\talign-items"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"h",
+				"height\tabc"
+			],
+			[
+				"text",
+				"text-align\t(section_10.sass)"
+			],
+			[
+				"j",
+				"jc-sb\tjustify-content: space-between"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"d-f",
+				"d-f\tdisplay: flex"
+			],
+			[
+				"n",
+				"nth-child\tabc"
+			],
+			[
+				"flex-",
+				"flex-flow\tproperty"
+			],
+			[
+				"ml",
+				"margin-left\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"se",
+				"section_10.sass"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: all",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: SCSS"
+			],
+			[
+				"pu",
+				"Set Syntax: Pug"
+			],
+			[
+				"pug",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 296.0,
+		"history":
+		[
+			"ls",
+			"pwd",
+			"git"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sirius/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/sirius/project/site/summer/sass/section_3.sass",
+		"/home/sirius/project/site/summer/sass/section_13.sass",
+		"/home/sirius/project/site/summer/pug/template/section/section_12.pug",
+		"/home/sirius/project/site/summer/pug/template/section/section_13.pug",
+		"/home/sirius/project/site/summer/pug/index.pug",
+		"/home/sirius/project/site/summer/pug/template/varconf.pug",
+		"/home/sirius/project/site/summer/sass/section_12.sass",
+		"/home/sirius/project/site/summer/pug/template/section/section_5.pug",
+		"/home/sirius/project/site/summer/sass/section_11.sass",
+		"/home/sirius/project/site/summer/sass/section_10.sass",
+		"/home/sirius/project/site/summer/css/normalize.css",
+		"/home/sirius/project/site/summer/sass/section_5.sass",
+		"/home/sirius/project/site/summer/pug/template/section/section_11.pug",
+		"/home/sirius/project/site/summer/pug/template/section/section_10.pug",
+		"/home/sirius/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/sirius/project/site/summer/css/style.css",
+		"/home/sirius/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+		"/home/sirius/.config/sublime-text-3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/home/sirius/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/sirius/project/site/summer/gulp/gulpfile.js",
+		"/home/sirius/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "план.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
