@@ -38,6 +38,7 @@ gulp.task('pug', () =>  {
       pretty : true
   }))
   .pipe(gulp.dest('../src/html/'))
+//  .pipe(gulp.dest('../index.html'))
   .pipe(plumber.stop())  
 });
 
