@@ -2,12 +2,13 @@
 /*горизонтальное положение телефона */
 @media (min-width: 1441px) and (max-width: 1920px) {
   .sub-1 .menu {
-    display: grid;
+    display: flex;
+    align-items: center;
     position: relative;
-    width: 66px;
-    height: 3vh;
     top: 37%;
     left: 88.5%;
+    width: 66px;
+    height: 4vh;
     border: 2px solid #4C94CD;
     border-radius: 25% 25% 25% 25%;
     background: #000;

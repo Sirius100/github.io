@@ -1,11 +1,9 @@
 .navigation {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  color: #fff;
   width: 97vw;
   height: 10vh;
   border: 2px solid aqua;
   border-radius: 25%;
+  color: #fff;
   text-align: center;
   margin-left: auto;
   margin-right: auto; }

@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   z-index: 10;
-  /*display: none */ }
+  display: none; }
   .conteiner_scale .setka {
     background: aqua;
     opacity: 0.1; }

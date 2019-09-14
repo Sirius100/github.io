@@ -1,21 +1,27 @@
 section.subwrapper.sub-1
   header
-    .menu.water
-    .line-menu
-    .line-menu
-    .line-menu
-    nav.navigation
-      span EFFECTS
-      ul.nav
-        li
-          a.but(href='src/html/polygon.html') POLYGON
-        li
-          a.but(href='src/html/gradient.html') GRADIENT
-        li
-          a.but(href='src/html/transform.html') TRANSFORM
-        li
-          a.but(href='src/html/animation.html') ANIMATION
-        li
-          a.but(href='src/html/button.html') BUTTONS
+    .menu
+      input#menu(type="checkbox")
+      label.menu_btn(for="menu")
+        span
+
+    .submenu
+      - var name_link;
+      each name_link in ["Обо мне", "Мои работы", "Связь со мной"]   
+        a.sector(href="#") #{name_link}
+
+  nav.navigation
+    span EFFECTS
+    ul.nav
+      li
+        a.but(href='src/html/polygon.html') POLYGON
+      li
+        a.but(href='src/html/gradient.html') GRADIENT
+      li
+        a.but(href='src/html/transform.html') TRANSFORM
+      li
+        a.but(href='src/html/animation.html') ANIMATION
+      li
+        a.but(href='src/html/button.html') BUTTONS
 
       

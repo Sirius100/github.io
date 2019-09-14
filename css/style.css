@@ -113,13 +113,11 @@ header {
 
 
 .navigation {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  color: #fff;
   width: 97vw;
   height: 10vh;
   border: 2px solid aqua;
   border-radius: 25%;
+  color: #fff;
   text-align: center;
   margin-left: auto;
   margin-right: auto; }
@@ -158,7 +156,7 @@ header {
   width: 100%;
   height: 100%;
   z-index: 10;
-  /*display: none */ }
+  display: none; }
   .conteiner_scale .setka {
     background: aqua;
     opacity: 0.1; }
@@ -175,6 +173,15 @@ header {
 @font-face {
   font-family: "jua";
   src: url("../src/Font/Jua/Jua-Regular.ttf"); }
+@font-face {
+  font-family: "black_H_S";
+  src: url("../src/Font/BlackHanSans-Regular.ttf"); }
+@font-face {
+  font-family: "Nanum_gotic_R";
+  src: url("../src/Font/Nanum_Gothic/NanumGothic-Regular.ttf"); }
+@font-face {
+  font-family: "Nanum_gotic_E";
+  src: url("../src/Font/Nanum_Gothic/NanumGothic-ExtraBold.ttf"); }
 .water:hover {
   border: 2px solid aqua !important;
   border-radius: 25% 25% 25% 25%; }
@@ -185,29 +192,55 @@ header {
   background: url("../img/brick.png");
   background-size: 100% 100%; }
   .sub-1 .menu {
-    display: grid;
+    display: flex;
     position: relative;
-    width: 2vw;
-    height: 4vh;
     top: 37%;
     left: 87.5%;
+    width: 3.5vw;
+    height: 4vh;
+    align-items: center;
     border: 2px solid #4C94CD;
     border-radius: 25% 25% 25% 25%;
-    background: #000;
-    opacity: 1; }
-    .sub-1 .menu .line-menu {
-      position: absolute;
+    background: #000; }
+    .sub-1 .menu #menu {
+      opacity: 0;
+      display: none; }
+    .sub-1 .menu .menu_btn {
+      display: flex;
+      align-items: center;
       width: 100%;
-      height: 2px;
-      border-radius: 15% 15% 15% 15%;
-      background: #FFFFFF;
-      background: #000000; }
-      .sub-1 .menu .line-menu .line-menu:nth-child(1) {
-        top: 15%; }
-      .sub-1 .menu .line-menu .line-menu:nth-child(2) {
-        top: 45%; }
-      .sub-1 .menu .line-menu .line-menu:nth-child(3) {
-        top: 75%; }
+      height: 100%;
+      cursor: pointer; }
+      .sub-1 .menu .menu_btn span {
+        position: relative; }
+      .sub-1 .menu .menu_btn span, .sub-1 .menu .menu_btn span::before, .sub-1 .menu .menu_btn span::after {
+        display: block;
+        width: 100%;
+        height: 0.125rem;
+        background-color: #ffffff; }
+      .sub-1 .menu .menu_btn span::before {
+        content: "";
+        position: relative;
+        top: -0.625rem; }
+      .sub-1 .menu .menu_btn span::after {
+        content: "";
+        position: relative;
+        top: 0.53rem; }
+  .sub-1 .submenu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 70%;
+    min-width: 25%;
+    height: 4rem;
+    margin: 0 auto;
+    background-color: purple;
+    border: 1px solid yellow; }
+    .sub-1 .submenu .sector {
+      color: #7FFF00;
+      text-decoration: none;
+      font-family: "black_H_S", sans-serif;
+      font-weight: 700; }
 
 .sub-2 {
   position: absolute;
@@ -450,12 +483,13 @@ header {
 /*горизонтальное положение телефона */
 @media (min-width: 1441px) and (max-width: 1920px) {
   .sub-1 .menu {
-    display: grid;
+    display: flex;
+    align-items: center;
     position: relative;
-    width: 66px;
-    height: 3vh;
     top: 37%;
     left: 88.5%;
+    width: 66px;
+    height: 4vh;
     border: 2px solid #4C94CD;
     border-radius: 25% 25% 25% 25%;
     background: #000;
@@ -535,27 +569,17 @@ header {
 /*горизонтальное положение телефона */
 @media (min-width: 1281px) and (max-width: 1440px) {
   .sub-1 .menu {
-    display: grid;
+    display: flex;
+    align-items: center;
     position: relative;
-    width: 66px;
-    height: 3vh;
     top: 37%;
     left: 88.5%;
+    width: 66px;
+    height: 4vh;
     border: 2px solid #4C94CD;
     border-radius: 25% 25% 25% 25%;
     background: #000;
     opacity: 1; }
-    .sub-1 .menu .line-menu {
-      width: 100%;
-      height: 2px;
-      border-radius: 15%;
-      background: #FFFFFF; }
-    .sub-1 .menu .line-menu:nth-child(1) {
-      top: 13%; }
-    .sub-1 .menu .line-menu:nth-child(2) {
-      top: 47%; }
-    .sub-1 .menu .line-menu:nth-child(3) {
-      top: 81%; }
 
   .navigation {
     display: block;
