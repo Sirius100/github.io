@@ -34,10 +34,11 @@
       height: 100%
 
       cursor: pointer
+
+      z-index: 10
       
       span
         position: relative
-        //top: 0.875rem
 
       span, span::before, span::after
         display: block
@@ -60,25 +61,51 @@
         top: 0.53rem
 
   .submenu
-    display: flex
+    display: none
     justify-content: space-around
+    align-items: center
+
+    opacity: 0
 
     text-align: center
     
     max-width: 70%
-    min-width: 25%
+    min-width: 15%
     height: 4rem
+
+    position: relative
+    top: 81px
 
     margin: 0 auto
 
-    background-color: purple
-
-    border: 1px solid yellow
+    transition: all 1.5s linear .2s
     .sector
       color: #7FFF00
       text-decoration: none
+      text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310
+
       font-family: "black_H_S", sans-serif
       font-weight: 700
+
+      &:hover,&active
+        &:after
+          background-color: #FFFF00 
+          text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310
+
+          display: block
+      &:after
+        content: ""
+        display: none
+
+        width: 100%
+        height: 2px
+
+        position: relative
+        bottom: -5px
+        left: 0
+        z-index: 1
+
+        transition-duration: 2s
 
 
 
