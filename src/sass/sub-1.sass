@@ -21,6 +21,14 @@
     border: 2px solid #4C94CD
     border-radius: 25% 25% 25% 25%
     background: #000
+    &:hover,
+    &:active
+      border: 2px solid #00FFFF
+      span, 
+      &::before,
+      &::after
+        background-color: red
+
 
     #menu
       opacity: 0
@@ -47,6 +55,9 @@
         height: 0.125rem
 
         background-color: #ffffff
+        &::before,
+        &::after
+          background-color: red        
 
       span::before
         content: ""
@@ -87,10 +98,12 @@
       font-family: "black_H_S", sans-serif
       font-weight: 700
 
+      outline: none
+
       &:hover,&active
         &:after
-          background-color: #FFFF00 
-          text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310
+          background-color: #000000 
+          text-shadow: -2px 2px 2px #DCDCDC, 2px -2px 2px #DCDCDC
 
           display: block
       &:after
