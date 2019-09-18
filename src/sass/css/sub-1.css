@@ -10,6 +10,9 @@
 @font-face {
   font-family: "Nanum_gotic_E";
   src: url("../src/Font/Nanum_Gothic/NanumGothic-ExtraBold.ttf"); }
+@font-face {
+  font-family: "Inconsolata";
+  src: url("..src/Font/Inconsolata/Inconsolata-Regular.ttf"); }
 .water:hover {
   border: 2px solid aqua !important;
   border-radius: 25% 25% 25% 25%; }
@@ -66,7 +69,7 @@
     visibility: hidden;
     justify-content: space-around;
     align-items: center;
-    transition: all 2s linear 0.2s;
+    transition: all 0.5s linear 0.1s;
     text-align: center;
     opacity: 0;
     max-width: 70%;
@@ -76,11 +79,13 @@
     top: 60px;
     margin: 0 auto; }
     .sub-1 .submenu .sector {
-      color: #7FFF00;
+      color: #E0FFFF;
       text-decoration: none;
-      text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310;
-      font-family: "black_H_S", sans-serif;
-      font-weight: 700;
+      text-shadow: -2px 2px -1px #E59310, 2px -2px 2px #E59310;
+      font-family: "Inconsolata", sans-serif;
+      font-weight: 800;
+      font-size: 1.2rem;
+      letter-spacing: 0.18em;
       outline: none; }
       .sub-1 .submenu .sector:hover:after, .sub-1 .submenu .sectoractive:after {
         background-color: #000000;
