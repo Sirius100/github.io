@@ -122,7 +122,8 @@ header {
   margin-left: auto;
   margin-right: auto; }
   .navigation span {
-    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
+    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310;
+    margin: 0 auto; }
   .navigation .nav {
     list-style-type: none;
     text-align: center;
@@ -169,62 +170,6 @@ header {
 
 .slider-3 {
   background-image: url("../img/conor.jpg"); }
-
-.sub-2 {
-  position: absolute;
-  top: 100vh;
-  display: grid;
-  grid-template-rows: 50px auto;
-  grid-gap: 2px 2px;
-  background: darkcyan;
-  overflow: hidden; }
-  .sub-2 .tabs {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-areas: "GULP GULP GULP GULP WEBPACK WEBPACK WEBPACK WEBPACK";
-    align-content: stretch;
-    background: #475C59;
-    text-align: center; }
-    .sub-2 .tabs .gulp {
-      grid-area: GULP; }
-    .sub-2 .tabs .gulp:active ~ #CONTENT-1 {
-      transform: translateX(-300px); }
-    .sub-2 .tabs .webpack {
-      grid-area: WEBPACK; }
-    .sub-2 .tabs a {
-      text-decoration: none;
-      padding-top: 15px;
-      border-left: 1px solid #EDEEEC;
-      border-right: 1px solid #EDEEEC;
-      color: #7E7067;
-      font-family: sans-serif;
-      font-size: large;
-      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310; }
-    .sub-2 .tabs a:hover {
-      color: #FFFFFF; }
-  .sub-2 .text-tools {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr; }
-    .sub-2 .text-tools .CONTENT-1 {
-      border: 1px solid red;
-      background: #0B1E1B;
-      position: relative;
-      left: 90vw;
-      width: 100vw;
-      -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%);
-              clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
-    .sub-2 .text-tools .CONTENT-1:active {
-      z-index: 100;
-      width: 110vw;
-      transform: translateX(-101vw);
-      transition-duration: 3s; }
-    .sub-2 .text-tools .read-content {
-      left: 0%;
-      border: 1px solid red;
-      background: #0B1E1B;
-      position: relative;
-      width: 100vw; }
 
 @font-face {
   font-family: "jua";
@@ -329,6 +274,62 @@ header {
         left: 0;
         z-index: 1;
         transition-duration: 2s; }
+
+.sub-2 {
+  position: absolute;
+  top: 100vh;
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-gap: 2px 2px;
+  background: darkcyan;
+  overflow: hidden; }
+  .sub-2 .tabs {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "GULP GULP GULP GULP WEBPACK WEBPACK WEBPACK WEBPACK";
+    align-content: stretch;
+    background: #475C59;
+    text-align: center; }
+    .sub-2 .tabs .gulp {
+      grid-area: GULP; }
+    .sub-2 .tabs .gulp:active ~ #CONTENT-1 {
+      transform: translateX(-300px); }
+    .sub-2 .tabs .webpack {
+      grid-area: WEBPACK; }
+    .sub-2 .tabs a {
+      text-decoration: none;
+      padding-top: 15px;
+      border-left: 1px solid #EDEEEC;
+      border-right: 1px solid #EDEEEC;
+      color: #7E7067;
+      font-family: sans-serif;
+      font-size: large;
+      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310; }
+    .sub-2 .tabs a:hover {
+      color: #FFFFFF; }
+  .sub-2 .text-tools {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+    .sub-2 .text-tools .CONTENT-1 {
+      border: 1px solid red;
+      background: #0B1E1B;
+      position: relative;
+      left: 90vw;
+      width: 100vw;
+      -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%);
+              clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
+    .sub-2 .text-tools .CONTENT-1:active {
+      z-index: 100;
+      width: 110vw;
+      transform: translateX(-101vw);
+      transition-duration: 3s; }
+    .sub-2 .text-tools .read-content {
+      left: 0%;
+      border: 1px solid red;
+      background: #0B1E1B;
+      position: relative;
+      width: 100vw; }
 
 .sub-3 {
   position: absolute;

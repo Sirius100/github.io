@@ -8,7 +8,8 @@
   margin-left: auto;
   margin-right: auto; }
   .navigation span {
-    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
+    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310;
+    margin: 0 auto; }
   .navigation .nav {
     list-style-type: none;
     text-align: center;
