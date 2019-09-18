@@ -398,7 +398,8 @@ header {
   align-items: center; }
   .heroy .card {
     perspective: 100px;
-    transform-style: preserve-3d; }
+    transform-style: preserve-3d;
+    cursor: pointer; }
     .heroy .card #a {
       background-image: url("../img/trans1.jpg"); }
     .heroy .card #b {
