@@ -62,18 +62,19 @@
         position: relative;
         top: 0.53rem; }
   .sub-1 .submenu {
-    display: none;
+    display: flex;
+    visibility: hidden;
     justify-content: space-around;
     align-items: center;
-    opacity: 0;
+    transition: all 2s linear 0.2s;
     text-align: center;
+    opacity: 0;
     max-width: 70%;
     min-width: 15%;
     height: 4rem;
     position: relative;
-    top: 81px;
-    margin: 0 auto;
-    transition: all 1.5s linear 0.2s; }
+    top: 60px;
+    margin: 0 auto; }
     .sub-1 .submenu .sector {
       color: #7FFF00;
       text-decoration: none;

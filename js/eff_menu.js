@@ -5,28 +5,25 @@
 }, false);*/
  
 const item = document.querySelector('#menu');
-/**/item.checked = true;
-console.log('item.checked загрузка сайта и = ', item.checked);
-
+item.checked = true;
 
 
 function check (){
 	const submenu = document.querySelector('.submenu');
 	const item = document.querySelector('#menu');
+	
+		if (item.checked != true){ 
 
-		if (item.checked != true){ 	
-			console.log('item.checked вошел в секцию true и = ', item.checked);
-			submenu.style.display = "flex";
-			submenu.style.transition = 'all 1.5s linear .2s';
-			submenu.style.transform = 'translateY(-5rem)';	
+			submenu.style.visibility = "visible";
 			submenu.style.opacity = "1";
-			console.log('item.checked вышел из секции true и = ', item.checked);
+			submenu.style.transform = 'translateY(-3.5rem)';	
+			
 		}
 		else {
-			console.log('item.checked вошел в секцию else и = ', item.checked);
+
 			submenu.style.transform = 'translateY(0rem)';
+			submenu.style.visibility = "hidden";
 			submenu.style.opacity = "0";
-			console.log('item.checked вышел из секции else и = ', item.checked);
 		}
 };
 
