@@ -93,7 +93,6 @@
         display: block; }
       .sub-1 .submenu .sector:after {
         content: "";
-        display: none;
         width: 100%;
         height: 2px;
         position: relative;

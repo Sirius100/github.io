@@ -1,9 +1,3 @@
-/*window.addEventListener('load', function()  {
-	const item = document.querySelector('#menu');
-	console.log(item.checked);
-	item.checked = true;
-}, false);*/
- 
 const item = document.querySelector('#menu');
 item.checked = true;
 

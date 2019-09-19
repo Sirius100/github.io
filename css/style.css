@@ -40,6 +40,7 @@ body {
   background: #6961B8;
   border: #CB067C; }
 
+
 body {
   box-sizing: border-box;
   margin: 0; }
@@ -110,66 +111,6 @@ header {
   background-image: linear-gradient(135deg, #93CB06 10%, #CB067C 60%, #4154F1 96%);
   opacity: 0.6; }
 
-
-
-.navigation {
-  width: 97vw;
-  height: 10vh;
-  border: 2px solid aqua;
-  border-radius: 25%;
-  color: #fff;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-  .navigation span {
-    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310;
-    margin: 0 auto; }
-  .navigation .nav {
-    list-style-type: none;
-    text-align: center;
-    color: #FFFFFF; }
-    .navigation .nav li {
-      display: inline;
-      text-align: center;
-      margin-top: 20px; }
-      .navigation .nav li a {
-        -webkit-animation-direction: alternate;
-                animation-direction: alternate;
-        -webkit-animation-duration: 2s;
-                animation-duration: 2s;
-        -webkit-animation-iteration-count: infinite;
-                animation-iteration-count: infinite; }
-    .navigation .nav li:nth-child(5) {
-      -webkit-animation-name: lay;
-              animation-name: lay;
-      -webkit-animation-duration: 2s;
-              animation-duration: 2s;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-direction: alternate;
-              animation-direction: alternate; }
-
-.conteiner_scale {
-  display: grid;
-  grid-template-columns: repeat(19, 1fr);
-  grid-column-gap: 5px;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  display: none; }
-  .conteiner_scale .setka {
-    background: aqua;
-    opacity: 0.1; }
-
-.slider-1 {
-  background-image: url("../img/bosco.jpg"); }
-
-.slider-2 {
-  background-image: url("../img/robert.jpg"); }
-
-.slider-3 {
-  background-image: url("../img/conor.jpg"); }
 
 @font-face {
   font-family: "jua";
@@ -266,7 +207,6 @@ header {
         display: block; }
       .sub-1 .submenu .sector:after {
         content: "";
-        display: none;
         width: 100%;
         height: 2px;
         position: relative;
@@ -274,6 +214,65 @@ header {
         left: 0;
         z-index: 1;
         transition-duration: 2s; }
+
+.navigation {
+  width: 97vw;
+  height: 10vh;
+  border: 2px solid aqua;
+  border-radius: 25%;
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .navigation span {
+    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310;
+    margin: 0 auto; }
+  .navigation .nav {
+    list-style-type: none;
+    text-align: center;
+    color: #FFFFFF; }
+    .navigation .nav li {
+      display: inline;
+      text-align: center;
+      margin-top: 20px; }
+      .navigation .nav li a {
+        -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+        -webkit-animation-duration: 2s;
+                animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite; }
+    .navigation .nav li:nth-child(5) {
+      -webkit-animation-name: lay;
+              animation-name: lay;
+      -webkit-animation-duration: 2s;
+              animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate; }
+
+.conteiner_scale {
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+  grid-column-gap: 5px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none; }
+  .conteiner_scale .setka {
+    background: aqua;
+    opacity: 0.1; }
+
+.slider-1 {
+  background-image: url("../img/bosco.jpg"); }
+
+.slider-2 {
+  background-image: url("../img/robert.jpg"); }
+
+.slider-3 {
+  background-image: url("../img/conor.jpg"); }
 
 .sub-2 {
   position: absolute;
@@ -428,92 +427,6 @@ header {
     height: 100vh; }
 
 @charset "UTF-8";
-/*вертикальное положение телефона */
-@media (min-width: 0px) and (max-width: 359px) {
-  .sub-1 .menu {
-    display: grid;
-    position: relative;
-    width: 9vw;
-    height: 4vh;
-    top: 37%;
-    left: 79%;
-    border: 2px solid #4C94CD;
-    border-radius: 25% 25% 25% 25%;
-    background: #000;
-    opacity: 1; }
-    .sub-1 .menu .line-menu {
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      border-radius: 15%;
-      background: #FFFFFF; }
-    .sub-1 .menu .line-menu:nth-child(1) {
-      top: 13%; }
-    .sub-1 .menu .line-menu:nth-child(2) {
-      top: 44%; }
-    .sub-1 .menu .line-menu:nth-child(3) {
-      top: 75%; }
-
-  .navigation {
-    position: relative;
-    top: 9vh;
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
-    color: #fff;
-    width: 97vw;
-    height: 70vh;
-    border: 1px solid aqua;
-    border-radius: 25%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto; }
-    .navigation span {
-      position: absolute;
-      top: 4vh;
-      left: 27vw;
-      letter-spacing: 0.2vw;
-      text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
-    .navigation .nav {
-      position: absolute;
-      top: 21vh;
-      list-style-type: none;
-      text-align: center;
-      color: #FFFFFF; }
-      .navigation .nav li {
-        display: block;
-        position: absolute;
-        left: 24vw;
-        height: 6vh;
-        text-align: center;
-        margin-top: 5px; }
-      .navigation .nav li:nth-child(1) {
-        top: -5vh; }
-      .navigation .nav li:nth-child(2) {
-        top: 5vh; }
-      .navigation .nav li:nth-child(3) {
-        top: 15vh; }
-      .navigation .nav li:nth-child(4) {
-        top: 25vh; }
-      .navigation .nav li:nth-child(5) {
-        top: 35vh; }
-
-  .but {
-    width: 45vw;
-    height: 6vh;
-    display: inline-block;
-    text-align: center;
-    border-radius: 15%;
-    text-decoration: none;
-    background: #1FF46F;
-    font-family: jua;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
-    font-weight: normal;
-    color: #000000;
-    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
-    padding-top: 1.3vh; } }
-
-@charset "UTF-8";
 /*горизонтальное положение телефона */
 @media (min-width: 1441px) and (max-width: 1920px) {
   .sub-1 .menu {
@@ -598,6 +511,92 @@ header {
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.9vh; } }
+
+@charset "UTF-8";
+/*вертикальное положение телефона */
+@media (min-width: 0px) and (max-width: 359px) {
+  .sub-1 .menu {
+    display: grid;
+    position: relative;
+    width: 9vw;
+    height: 4vh;
+    top: 37%;
+    left: 79%;
+    border: 2px solid #4C94CD;
+    border-radius: 25% 25% 25% 25%;
+    background: #000;
+    opacity: 1; }
+    .sub-1 .menu .line-menu {
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      border-radius: 15%;
+      background: #FFFFFF; }
+    .sub-1 .menu .line-menu:nth-child(1) {
+      top: 13%; }
+    .sub-1 .menu .line-menu:nth-child(2) {
+      top: 44%; }
+    .sub-1 .menu .line-menu:nth-child(3) {
+      top: 75%; }
+
+  .navigation {
+    position: relative;
+    top: 9vh;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    color: #fff;
+    width: 97vw;
+    height: 70vh;
+    border: 1px solid aqua;
+    border-radius: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .navigation span {
+      position: absolute;
+      top: 4vh;
+      left: 27vw;
+      letter-spacing: 0.2vw;
+      text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310; }
+    .navigation .nav {
+      position: absolute;
+      top: 21vh;
+      list-style-type: none;
+      text-align: center;
+      color: #FFFFFF; }
+      .navigation .nav li {
+        display: block;
+        position: absolute;
+        left: 24vw;
+        height: 6vh;
+        text-align: center;
+        margin-top: 5px; }
+      .navigation .nav li:nth-child(1) {
+        top: -5vh; }
+      .navigation .nav li:nth-child(2) {
+        top: 5vh; }
+      .navigation .nav li:nth-child(3) {
+        top: 15vh; }
+      .navigation .nav li:nth-child(4) {
+        top: 25vh; }
+      .navigation .nav li:nth-child(5) {
+        top: 35vh; }
+
+  .but {
+    width: 45vw;
+    height: 6vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15%;
+    text-decoration: none;
+    background: #1FF46F;
+    font-family: jua;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    padding-top: 1.3vh; } }
 
 @charset "UTF-8";
 /*горизонтальное положение телефона */
