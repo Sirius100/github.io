@@ -54,7 +54,7 @@ gulp.task('sass',  () => {
         .pipe(sourcemaps.init())
             .pipe(concat('style.css'))
             .pipe(prefixer())
-            .pipe(sourcemaps.write('../maps'))
+            .pipe(sourcemaps.write('../src/sass/maps'))
             .pipe(gulp.dest('../css'))
 });
 
