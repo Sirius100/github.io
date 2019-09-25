@@ -1,0 +1,9 @@
+.work_header {
+  grid-area: header;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: -30vw;
+  right: 0;
+  height: 80px;
+  text-align: center; }

@@ -1,0 +1,39 @@
+extends template/main.pug
+
+
+append link
+	include template/link.pug
+
+append metas
+	include template/meta.pug
+
+block body
+	body.work
+
+	block content
+
+		.work_wrapper
+			block grid
+				include template/grid.pug
+
+			block conteiner
+
+				block work_header
+
+					include template/section/work/work_header.pug
+
+				block work_sidebar
+
+					include template/section/work/work_sidebar.pug
+
+				block work_content
+
+					include template/section/work/work_content.pug
+
+				block work_footer
+
+					include template/section/work/work_footer.pug
+
+
+
+
