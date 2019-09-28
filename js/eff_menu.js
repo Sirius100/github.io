@@ -10,7 +10,7 @@ function check (){
 
 			submenu.style.visibility = "visible";
 			submenu.style.opacity = "1";
-			submenu.style.transform = 'translateY(-3.5rem)';	
+			submenu.style.transform = 'translateY(-3.7rem)';	
 			
 		}
 		else {

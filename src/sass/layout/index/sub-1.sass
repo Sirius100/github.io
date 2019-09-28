@@ -17,7 +17,7 @@
     
     border-bottom: 1px solid lawngreen
 
-    background-image: linear-gradient(135deg, #93CB06 10%, #CB067C 60%, #4154F1 96%)
+    background-image: linear-gradient(135deg, #109100 10%, #200623 60%, #030000 96%)
     opacity: 0.6
 
   .menu
@@ -90,7 +90,7 @@
   .submenu
     display: flex
     visibility: hidden
-    justify-content: space-around
+    justify-content: space-between
     align-items: center
 
     transition: all .5s linear .1s
@@ -109,36 +109,22 @@
     margin: 0 auto
 
     .sector
-      // color: #E0FFFF
-      color: red
+      color: #E0FFFF
       text-decoration: none
-      text-shadow: -2px 2px 1px #E59310, 2px -2px 2px #E59315
+      // text-shadow: -2px 2px 1px #E59310, 2px -2px 2px #E59315
 
       font-family: "Inconsolata", sans-serif
       font-weight: 800
       font-size: 1.2rem
       letter-spacing: .18em 
+      word-spacing: .2em
 
       outline: none
+      &:nth-child(2)
+        position: absolute
+        left: 45.26%
 
-      &:hover,&active
-        &:after
-          background-color: #000000 
-          text-shadow: -2px 2px 2px #DCDCDC, 2px -2px 2px #DCDCDC
 
-          display: block
-      &:after
-        content: ""
-
-        width: 100%
-        height: 2px
-
-        position: relative
-        bottom: -5px
-        left: 0
-        z-index: 1
-
-        transition-duration: 2s
 
 
 
