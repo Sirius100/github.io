@@ -3,5 +3,10 @@ section.subwrapper.sub-2
 		a.gulp(href='#', onclick='return false') GULP
 		a.webpack(href='#', onclick='return false') WEBPACK
 	.text-tools
-		.CONTENT-1
-		.CONTENT-2
+		.nav_panel
+			.CONTENT
+				input.section#gulp(type = "checkbox" onchange = "activate();")
+				label.choose_section(for = "gulp")
+			.CONTENT
+				input.section#webpack(type = "checkbox" onchange = "activate();")
+				label.choose_section(for = "webpack")

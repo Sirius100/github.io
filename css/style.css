@@ -100,17 +100,6 @@ body {
     border: 1px solid aqua;
     background-color: #260000; }
 
-header {
-  width: inherit;
-  height: 15vh;
-  position: relative;
-  top: 0;
-  padding-right: 2px;
-  border-bottom: 1px solid lawngreen;
-  background: darkslategrey;
-  background-image: linear-gradient(135deg, #109100 10%, #200623 60%, #030000 96%);
-  opacity: 0.6; }
-
 @charset "UTF-8";
 /*вертикальное положение телефона */
 @media (min-width: 0px) and (max-width: 359px) {
@@ -196,6 +185,17 @@ header {
     color: #000000;
     text-shadow: -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
     padding-top: 1.3vh; } }
+
+header {
+  width: inherit;
+  height: 15vh;
+  position: relative;
+  top: 0;
+  padding-right: 2px;
+  border-bottom: 1px solid lawngreen;
+  background: darkslategrey;
+  background-image: linear-gradient(135deg, #109100 10%, #200623 60%, #030000 96%);
+  opacity: 0.6; }
 
 @charset "UTF-8";
 /*горизонтальное положение телефона */
@@ -691,6 +691,9 @@ header {
   z-index: 1;
   transition-duration: 2s; }
 
+.sun {
+  background-color: #ffa321; }
+
 .sub-1 {
   position: fixed;
   top: 0vh;
@@ -807,20 +810,34 @@ header {
   .sub-2 .text-tools {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr; }
-    .sub-2 .text-tools .CONTENT-1 {
-      border: 1px solid red;
+    grid-template-rows: 1fr;
+    position: relative; }
+    .sub-2 .text-tools .nav_panel {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: column;
+      position: absolute;
+      right: 0;
+      width: 100px;
+      height: 100%;
+      border: 1px solid lime; }
+    .sub-2 .text-tools .CONTENT {
       background: #0B1E1B;
       position: relative;
-      left: 90vw;
-      width: 100vw;
-      -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%);
-              clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
-    .sub-2 .text-tools .CONTENT-1:active {
-      z-index: 100;
-      width: 110vw;
-      transform: translateX(-101vw);
-      transition-duration: 3s; }
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto; }
+      .sub-2 .text-tools .CONTENT .section {
+        display: none; }
+      .sub-2 .text-tools .CONTENT .choose_section {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        cursor: pointer; }
     .sub-2 .text-tools .read-content {
       left: 0%;
       border: 1px solid red;
@@ -1032,6 +1049,9 @@ body {
   left: 0;
   z-index: 1;
   transition-duration: 2s; }
+
+.sun {
+  background-color: #ffa321; }
 
 .sub-1 {
   position: fixed;
@@ -1274,20 +1294,34 @@ body {
   .sub-2 .text-tools {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr; }
-    .sub-2 .text-tools .CONTENT-1 {
-      border: 1px solid red;
+    grid-template-rows: 1fr;
+    position: relative; }
+    .sub-2 .text-tools .nav_panel {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: column;
+      position: absolute;
+      right: 0;
+      width: 100px;
+      height: 100%;
+      border: 1px solid lime; }
+    .sub-2 .text-tools .CONTENT {
       background: #0B1E1B;
       position: relative;
-      left: 90vw;
-      width: 100vw;
-      -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%);
-              clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%, 0% 5%); }
-    .sub-2 .text-tools .CONTENT-1:active {
-      z-index: 100;
-      width: 110vw;
-      transform: translateX(-101vw);
-      transition-duration: 3s; }
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto; }
+      .sub-2 .text-tools .CONTENT .section {
+        display: none; }
+      .sub-2 .text-tools .CONTENT .choose_section {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        cursor: pointer; }
     .sub-2 .text-tools .read-content {
       left: 0%;
       border: 1px solid red;
