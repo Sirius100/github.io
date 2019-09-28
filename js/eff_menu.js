@@ -1,3 +1,5 @@
+// ------------------------------------------
+/*блок реализует анимацию  меню */
 const item = document.querySelector('#menu');
 item.checked = true;
 
@@ -20,6 +22,6 @@ function check (){
 			submenu.style.opacity = "0";
 		}
 };
-
+//------------------------------------------------
 
 

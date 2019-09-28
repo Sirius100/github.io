@@ -116,7 +116,7 @@ body {
   .sub-1 .submenu {
     display: flex;
     visibility: hidden;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     transition: all 0.5s linear 0.1s;
     text-align: center;
