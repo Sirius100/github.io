@@ -1,5 +1,6 @@
 const gulp            = require('gulp');
 const sass            = require('gulp-ruby-sass');
+const master_sass     = require('gulp-ruby-sass');
 const concat          = require('gulp-concat');
 const prefixer        = require('gulp-autoprefixer');
 const pug             = require('gulp-pug');
@@ -19,10 +20,9 @@ gulp.task('concat',  () => {
 });
 
 gulp.task('watch', () => {
-    gulp.watch('../src/sass/*.sass', ['sass']);
-    gulp.watch('../src/pug/*.pug', ['pug']);
-    gulp.watch('../src/pug/template/*.pug', ['pug']);
-    gulp.watch('../src/pug/template/section/*.pug', ['pug']);
+    gulp.watch('../src/sass/*.sass', ['master_sass']);
+    gulp.watch('../src/sass/**/*.sass', ['sass']);
+    gulp.watch('../src/pug/**/*.pug', ['pug']);
 //===================================================================    
 //    gulp.watch('../html/index.html', ['BrowserSync']);
 //    gulp.watch('../css/css.style', ['BrowserSync_css']);
@@ -31,6 +31,9 @@ gulp.task('watch', () => {
 
 //запуск шаблонизатора pug
 gulp.task('pug', () =>  {
+  console.log('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*');
+  console.log('Start Pug');
+  console.log('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*');
    return gulp.src('../src/pug/*.pug')
   .pipe(plumber())
   .pipe(pug({
@@ -43,19 +46,29 @@ gulp.task('pug', () =>  {
 });
 
 
-
-
-//команда запуска препроцессора sass
-//создает сss файл из sass файла
-gulp.task('sass',  () => {
-    sass('../src/sass/*.sass')
+gulp.task('sass', () => {
+  console.log('Start Sourcemap!!!');
+  console.log('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*');
+  console.log('Start Sass!!!');
+  console.log('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*');
+  return sass(['../src/sass/**/*.sass'])
     .on('error', sass.logError)
-        .pipe(gulp.dest('../src/sass/css/'))
-        .pipe(sourcemaps.init())
-            .pipe(concat('style.css'))
-            .pipe(prefixer())
-            .pipe(sourcemaps.write('../src/sass/maps'))
-            .pipe(gulp.dest('../css'))
+    .pipe(sourcemaps.init({loadMaps : true}))
+    .pipe(gulp.dest('../src/sass/css/'))
+    .pipe(concat('style.css'))
+    .pipe(prefixer())
+    .pipe(sourcemaps.write('../src/sass/maps/'))
+  .pipe(gulp.dest('../css'));
 });
 
+gulp.task('master_sass', () => {
+  console.log('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*');
+  console.log('Start Master Sass!!!');
+  console.log('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*');
+  gulp.src('../src/sass/*.sass')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(concat('style.css'))
+    .pipe(prefixer())
+    .pipe(gulp.dest('../css'));
+});
 gulp.task('default',['watch']);

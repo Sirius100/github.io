@@ -78,7 +78,7 @@
     align-items: center;
     transition: all 0.5s linear 0.1s;
     text-align: center;
-    opacity: 10;
+    opacity: 0;
     max-width: 70%;
     min-width: 15%;
     height: 4rem;
@@ -86,9 +86,9 @@
     top: 60px;
     margin: 0 auto; }
     .sub-1 .submenu .sector {
-      color: #E0FFFF;
+      color: red;
       text-decoration: none;
-      text-shadow: -2px 2px -1px #E59310, 2px -2px 2px #E59310;
+      text-shadow: -2px 2px 1px #E59310, 2px -2px 2px #E59315;
       font-family: "Inconsolata", sans-serif;
       font-weight: 800;
       font-size: 1.2rem;

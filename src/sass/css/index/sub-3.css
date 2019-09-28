@@ -1,0 +1,61 @@
+.sub-3 {
+  position: absolute;
+  top: 200vh;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  background: #0B1E1B; }
+  .sub-3 .karusel {
+    display: flex;
+    flex-flow: column;
+    justify-content: center; }
+    .sub-3 .karusel .borders {
+      border: 4px solid #BCF226 !important; }
+    .sub-3 .karusel .slayder {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 95%;
+      height: 90%;
+      border: 1px solid aqua;
+      border-radius: 25%;
+      background: #125E57;
+      margin-left: auto;
+      margin-right: auto; }
+      .sub-3 .karusel .slayder .item-slayder {
+        width: 95%;
+        height: 80%;
+        background: #EEEE6D;
+        background-position: center center;
+        background-size: 100% 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto; }
+      .sub-3 .karusel .slayder .item-1 {
+        border-radius: 25% 0 0 25%;
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        background-image: url("../img/bosco.jpg"); }
+      .sub-3 .karusel .slayder .item-2 {
+        background-image: url("../img/robert.jpg"); }
+      .sub-3 .karusel .slayder .item-3 {
+        border-radius: 0 25% 25% 0;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        background-image: url("../img/conor.jpg"); }
+    .sub-3 .karusel .three-dot {
+      display: flex;
+      background: #FFFFFF;
+      border-radius: 25%;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+      width: 100px;
+      height: 5%; }
+      .sub-3 .karusel .three-dot div {
+        background: black;
+        border-radius: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 15px;
+        height: 60%; }
+      .sub-3 .karusel .three-dot div:nth-child(n+2) {
+        margin-left: 2px; }

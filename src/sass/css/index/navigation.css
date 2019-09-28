@@ -1,0 +1,29 @@
+.navigation {
+  width: 97vw;
+  height: 10vh;
+  border: 2px solid aqua;
+  border-radius: 25%;
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .navigation span {
+    text-shadow: -2px 2px 2px #E59310, 2px -2px 2px #E59310;
+    margin: 0 auto; }
+  .navigation .nav {
+    list-style-type: none;
+    text-align: center;
+    color: #FFFFFF; }
+    .navigation .nav li {
+      display: inline;
+      text-align: center;
+      margin-top: 20px; }
+      .navigation .nav li a {
+        animation-direction: alternate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite; }
+    .navigation .nav li:nth-child(5) {
+      animation-name: lay;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate; }
