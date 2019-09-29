@@ -8,19 +8,21 @@ append metas
 
 block body
   body
-  block content  
+    block content  
 
-    .wrapper
+      .wrapper
 
-      block grid
-        include template/grid.pug
-      block header
-        include template/section/index/sub-1_header.pug
-      block sub-2
-        include template/section/index/sub-2.pug    
-      block sub-3
-        include template/section/index/sub-3.pug    
+        block grid
+          include template/grid.pug
+        block header
+          include template/section/index/sub-1_header.pug
+        block sub-2
+          include template/section/index/sub-2.pug    
+        block sub-3
+          include template/section/index/sub-3.pug    
 
 
-  prepend scripts
-    script(src= path_js + "eff_menu.js" )
+    prepend scripts
+      script(src= path_js + "eff_menu.js" )
+      script(src= "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js")
+      script(src= path_js + "creezy_lines.js")

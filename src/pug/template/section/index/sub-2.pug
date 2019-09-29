@@ -3,11 +3,35 @@ section.subwrapper.sub-2
 		a.gulp(href='#', onclick='return false') GULP
 		a.webpack(href='#', onclick='return false') WEBPACK
 	.text-tools
+		.ui
+			p.zoom
+				span.zoom.zoomin +
+				span.zoom.zoomout -
+			p.zoomlevel
+				span.percent 100
+				|  % - (
+				span.width
+				| px)(
+				span.height
+				| px)
+			p
+				| Dead: 
+				span.dead 0
+			p
+				| Alive: 
+				span.alive 0
+			p
+				| Drawn: 
+				span.drawn 0
+			p
+				span.fps 0
+				|  FPS
+			//- a.save(href='' download='capture.png') Save
 		.nav_panel
+
 			.CONTENT
 				input.section#gulp(type = "checkbox" onchange = "activate();")
 				label.choose_section(for = "gulp")
 			.CONTENT
 				input.section#webpack(type = "checkbox" onchange = "activate();")
 				label.choose_section(for = "webpack")
-

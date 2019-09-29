@@ -15,8 +15,7 @@
     text-align: center
     .gulp
       grid-area: GULP
-    .gulp:active ~ #CONTENT-1
-      transform: translateX(-300px)
+
     .webpack
       grid-area: WEBPACK
     a
@@ -32,14 +31,59 @@
     a:hover
       color: #FFFFFF
 
-
-
   .text-tools
     display: grid
-    grid-template-columns: 1fr
+    grid-template-columns: 94.6% 5%
     grid-template-rows: 1fr
 
     position: relative
+
+    canvas 
+      background: white
+      background: radial-gradient(#FFF, #DDD)
+      //background: radial-gradient(hsl(40, 80%, 60%), hsl(0, 50%, 40%));
+      //filter: blur(1px) contrast(5);
+      //transform: scale(0.1);
+      transform-origin: 0 0
+      //border: solid .8em green;
+      width: 100%
+      height: 100%
+      // z-index: 50
+
+    .ui
+      display: none
+      position: absolute
+      z-index: 5
+      bottom: 0
+      left: 0
+      width: 120px
+      padding: 10px
+      background: rgba(255,255,255,0.7)
+      p
+        //color: white;
+        font-size: 11px
+        font-weight: 700
+
+        &.zoom 
+          margin-bottom: 5px
+
+          span 
+            margin-right: 5px
+            border: solid 1px #777
+            cursor: pointer
+            border-radius: 2px
+
+            &.zoomin 
+              padding: 2px 5px
+
+            &.zoomout 
+              padding: 2px 8px
+
+            &:hover 
+              background: black
+              color: white
+
+      // span.zoom 
 
     .nav_panel
       display: flex
@@ -79,14 +123,6 @@
 
         cursor: pointer
 
-
-
-    .read-content
-      left: 0%
-      border: 1px solid red
-      background: #0B1E1B
-      position: relative
-      width: 100vw
 
 
 

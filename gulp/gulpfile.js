@@ -40,8 +40,8 @@ gulp.task('pug', () =>  {
     // Your options in here.
       pretty : true
   }))
-  // .pipe(gulp.dest('../src/html/'))
-  .pipe(gulp.dest('../index.html'))
+  .pipe(gulp.dest('../src/html/'))
+  .pipe(gulp.dest('.././index.html'))
   .pipe(plumber.stop())  
 });
 

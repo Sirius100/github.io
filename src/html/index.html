@@ -20,88 +20,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>versiya 0.1</title>
 </html>
-<body></body>
-<div class="wrapper">
-  <div class="conteiner_scale">
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
-    <div class="setka"> </div>
+<body>
+  <div class="wrapper">
+    <div class="conteiner_scale">
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+      <div class="setka"> </div>
+    </div>
+    <section class="subwrapper sub-1">
+      <header>
+        <div class="menu">
+          <input id="menu" type="checkbox" onchange="check();">
+          <label class="menu_btn" for="menu"><span></span></label>
+        </div>
+        <div class="submenu"><a class="sector underline" href="Who am I.html">Who am I</a><a class="sector underline" href="My works.html">My works</a><a class="sector underline" href="Contact.html">Contact</a>
+        </div>
+      </header>
+      <nav class="navigation"><span>EFFECTS</span>
+        <ul class="nav">
+          <li><a class="but" href="src/html/polygon.html">POLYGON</a></li>
+          <li><a class="but" href="src/html/gradient.html">GRADIENT</a></li>
+          <li><a class="but" href="src/html/transform.html">TRANSFORM</a></li>
+          <li><a class="but" href="src/html/animation.html">ANIMATION</a></li>
+          <li><a class="but" href="src/html/button.html">BUTTONS</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="subwrapper sub-2">
+      <div class="tabs"><a class="gulp" href="#" onclick="return false">GULP</a><a class="webpack" href="#" onclick="return false">WEBPACK</a></div>
+      <div class="text-tools">
+        <div class="ui">
+          <p class="zoom"><span class="zoom zoomin">+</span><span class="zoom zoomout">-</span></p>
+          <p class="zoomlevel"><span class="percent">100</span> % - (<span class="width"></span>px)(<span class="height"></span>px)</p>
+          <p>Dead: <span class="dead">0</span></p>
+          <p>Alive: <span class="alive">0</span></p>
+          <p>Drawn: <span class="drawn">0</span></p>
+          <p><span class="fps">0</span> FPS</p>
+        </div>
+        <div class="nav_panel">
+          <div class="CONTENT">
+            <input class="section" id="gulp" type="checkbox" onchange="activate();">
+            <label class="choose_section" for="gulp"></label>
+          </div>
+          <div class="CONTENT">
+            <input class="section" id="webpack" type="checkbox" onchange="activate();">
+            <label class="choose_section" for="webpack"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subwrapper sub-3">
+      <div class="karusel"><a href="img/left.png"></a>
+        <div class="slayder">
+          <div class="item-slayder item-1"></div>
+          <div class="item-slayder item-2"></div>
+          <div class="item-slayder item-3"></div>
+        </div><a href="img/right.png"></a>
+        <div class="three-dot">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="karusel">
+        <div class="slayder">
+          <div class="item-slayder item-1"></div>
+          <div class="item-slayder item-2"></div>
+          <div class="item-slayder item-3"></div>
+        </div>
+        <div class="three-dot">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
   </div>
-  <section class="subwrapper sub-1">
-    <header>
-      <div class="menu">
-        <input id="menu" type="checkbox" onchange="check();">
-        <label class="menu_btn" for="menu"><span></span></label>
-      </div>
-      <div class="submenu"><a class="sector underline" href="Who am I.html">Who am I</a><a class="sector underline" href="My works.html">My works</a><a class="sector underline" href="Contact.html">Contact</a>
-      </div>
-    </header>
-    <nav class="navigation"><span>EFFECTS</span>
-      <ul class="nav">
-        <li><a class="but" href="src/html/polygon.html">POLYGON</a></li>
-        <li><a class="but" href="src/html/gradient.html">GRADIENT</a></li>
-        <li><a class="but" href="src/html/transform.html">TRANSFORM</a></li>
-        <li><a class="but" href="src/html/animation.html">ANIMATION</a></li>
-        <li><a class="but" href="src/html/button.html">BUTTONS</a></li>
-      </ul>
-    </nav>
-  </section>
-  <section class="subwrapper sub-2">
-    <div class="tabs"><a class="gulp" href="#" onclick="return false">GULP</a><a class="webpack" href="#" onclick="return false">WEBPACK</a></div>
-    <div class="text-tools">
-      <div class="nav_panel">
-        <div class="CONTENT">
-          <input class="section" id="gulp" type="checkbox" onchange="activate();">
-          <label class="choose_section" for="gulp"></label>
-        </div>
-        <div class="CONTENT">
-          <input class="section" id="webpack" type="checkbox" onchange="activate();">
-          <label class="choose_section" for="webpack"></label>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="subwrapper sub-3">
-    <div class="karusel"><a href="img/left.png"></a>
-      <div class="slayder">
-        <div class="item-slayder item-1"></div>
-        <div class="item-slayder item-2"></div>
-        <div class="item-slayder item-3"></div>
-      </div><a href="img/right.png"></a>
-      <div class="three-dot">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-    <div class="karusel">
-      <div class="slayder">
-        <div class="item-slayder item-1"></div>
-        <div class="item-slayder item-2"></div>
-        <div class="item-slayder item-3"></div>
-      </div>
-      <div class="three-dot">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-  </section>
-</div>
-<script src="../../js/eff_menu.js"></script>
+  <script src="../../js/eff_menu.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
+  <script src="../../js/creezy_lines.js"></script>
+</body>
