@@ -292,9 +292,6 @@ body {
     .sub-2 .tabs a:hover {
       color: #FFFFFF; }
   .sub-2 .text-tools {
-    display: grid;
-    grid-template-columns: 94.6% 5%;
-    grid-template-rows: 1fr;
     position: relative; }
     .sub-2 .text-tools canvas {
       background: white;
@@ -335,14 +332,14 @@ body {
       position: absolute;
       right: 0;
       width: 100px;
-      height: 100%;
-      border: 1px solid lime; }
+      height: 100%; }
     .sub-2 .text-tools .CONTENT {
       background: #0B1E1B;
       position: relative;
       width: 80px;
       height: 80px;
       border-radius: 50%;
+      border: 1px solid #ed3cca;
       margin: 0 auto; }
       .sub-2 .text-tools .CONTENT .section {
         display: none; }
