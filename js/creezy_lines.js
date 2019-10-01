@@ -1,4 +1,4 @@
-
+/*этот файл скрипта отвечает за анимацию в блоке .text-tools  в секции .sub-2*/
 var App = {};
 App.setup = function() {
   var canvas = document.createElement('canvas');
@@ -289,16 +289,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
  
-/**
- * Some old util I use at times
- *
- * @param {Number} Xstart X value of the segment starting point
- * @param {Number} Ystart Y value of the segment starting point
- * @param {Number} Xtarget X value of the segment target point
- * @param {Number} Ytarget Y value of the segment target point
- * @param {Boolean} realOrWeb true if Real (Y towards top), false if Web (Y towards bottom)
- * @returns {Number} Angle between 0 and 2PI
- */
+
 segmentAngleRad = function(Xstart, Ystart, Xtarget, Ytarget, realOrWeb) {
   var result;// Will range between 0 and 2PI
   if (Xstart == Xtarget) {

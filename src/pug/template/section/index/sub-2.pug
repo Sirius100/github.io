@@ -1,6 +1,6 @@
 section.subwrapper.sub-2
 	.tabs
-		a.gulp(href='#', onclick='return false') GULP
+		a.gulp(href="JavaScript: new Date().toLocaleTimeString();", onclick='return false') GULP
 		a.webpack(href='#', onclick='return false') WEBPACK
 	.text-tools
 		.ui
@@ -28,10 +28,10 @@ section.subwrapper.sub-2
 				|  FPS
 		.nav_panel
 
-			.CONTENT
+			.CONTENT.gulp
 				input.section#gulp(type = "checkbox" onchange = "activate();")
 				label.choose_section(for = "gulp")
-			.CONTENT
+			.CONTENT.webpack
 				input.section#webpack(type = "checkbox" onchange = "activate();")
 				label.choose_section(for = "webpack")
 

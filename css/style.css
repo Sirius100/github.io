@@ -30,11 +30,6 @@
     border: 1px solid blue; } }
 
 
-body {
-  width: 99vw;
-  height: 300vh;
-  background: #96999C; }
-
 .butt {
   width: 50px;
   height: 35px;
@@ -99,6 +94,11 @@ body {
     grid-area: js;
     border: 1px solid aqua;
     background-color: #260000; }
+
+body {
+  width: 99vw;
+  height: 300vh;
+  background: #96999C; }
 
 header {
   width: inherit;
@@ -611,7 +611,6 @@ header {
     padding-top: 1.3vh; } }
 
 
-
 .navigation {
   width: 97vw;
   height: 10vh;
@@ -648,6 +647,7 @@ header {
               animation-iteration-count: infinite;
       -webkit-animation-direction: alternate;
               animation-direction: alternate; }
+
 
 .slider-1 {
   background-image: url("../img/bosco.jpg"); }
@@ -797,14 +797,19 @@ header {
     .sub-2 .tabs a {
       text-decoration: none;
       padding-top: 15px;
-      border-left: 1px solid #EDEEEC;
-      border-right: 1px solid #EDEEEC;
       color: #7E7067;
       font-family: sans-serif;
       font-size: large;
-      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310; }
-    .sub-2 .tabs a:hover {
-      color: #FFFFFF; }
+      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310;
+      outline: none; }
+      .sub-2 .tabs a:nth-child(1) {
+        border-right: 1px solid #EDEEEC; }
+      .sub-2 .tabs a:nth-child(2) {
+        border-left: 1px solid #EDEEEC; }
+      .sub-2 .tabs a:hover {
+        color: #FFFFFF; }
+    .sub-2 .tabs .interactiv {
+      background-color: rgba(0, 0, 0, 0.5); }
   .sub-2 .text-tools {
     position: relative; }
     .sub-2 .text-tools canvas {
@@ -855,6 +860,8 @@ header {
       border-radius: 50%;
       border: 1px solid #ed3cca;
       margin: 0 auto; }
+      .sub-2 .text-tools .CONTENT:hover, .sub-2 .text-tools .CONTENT:active {
+        transform: scale(1.05); }
       .sub-2 .text-tools .CONTENT .section {
         display: none; }
       .sub-2 .text-tools .CONTENT .choose_section {
@@ -1302,14 +1309,19 @@ body {
     .sub-2 .tabs a {
       text-decoration: none;
       padding-top: 15px;
-      border-left: 1px solid #EDEEEC;
-      border-right: 1px solid #EDEEEC;
       color: #7E7067;
       font-family: sans-serif;
       font-size: large;
-      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310; }
-    .sub-2 .tabs a:hover {
-      color: #FFFFFF; }
+      text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310;
+      outline: none; }
+      .sub-2 .tabs a:nth-child(1) {
+        border-right: 1px solid #EDEEEC; }
+      .sub-2 .tabs a:nth-child(2) {
+        border-left: 1px solid #EDEEEC; }
+      .sub-2 .tabs a:hover {
+        color: #FFFFFF; }
+    .sub-2 .tabs .interactiv {
+      background-color: rgba(0, 0, 0, 0.5); }
   .sub-2 .text-tools {
     position: relative; }
     .sub-2 .text-tools canvas {
@@ -1360,6 +1372,8 @@ body {
       border-radius: 50%;
       border: 1px solid #ed3cca;
       margin: 0 auto; }
+      .sub-2 .text-tools .CONTENT:hover, .sub-2 .text-tools .CONTENT:active {
+        transform: scale(1.05); }
       .sub-2 .text-tools .CONTENT .section {
         display: none; }
       .sub-2 .text-tools .CONTENT .choose_section {

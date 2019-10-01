@@ -21,16 +21,21 @@
     a
       text-decoration: none
       padding-top: 15px
-      border:
-        left: 1px solid #EDEEEC
-        right: 1px solid #EDEEEC
       color: #7E7067
       font-family: sans-serif
       font-size: large
       text-shadow: -0.5px 0.5px 0.5px #E59310, 0.5px -0.5px 0.5px #E59310
-    a:hover
-      color: #FFFFFF
 
+      outline: none
+      &:nth-child(1)
+        border-right: 1px solid #EDEEEC 
+      &:nth-child(2)
+        border-left: 1px solid #EDEEEC
+      &:hover
+        color: #FFFFFF
+
+    .interactiv
+      background-color: rgba(0, 0, 0, 0.5)
   .text-tools
     position: relative
 
@@ -99,6 +104,10 @@
       border: 1px solid rgba(237, 60, 202, 1)
 
       margin: 0 auto
+
+      &:hover,
+      &:active 
+        transform: scale(1.050)
 
       .section
         display: none
