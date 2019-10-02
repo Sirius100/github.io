@@ -100,16 +100,45 @@ body {
     border: 1px solid aqua;
     background-color: #260000; }
 
-header {
-  width: inherit;
-  height: 15vh;
-  position: relative;
-  top: 0;
-  padding-right: 2px;
-  border-bottom: 1px solid lawngreen;
-  background: darkslategrey;
-  background-image: linear-gradient(135deg, #109100 10%, #200623 60%, #030000 96%);
-  opacity: 0.6; }
+/*
+Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 18 of ../src/sass/layout/index/header.sass
+
+13:   opacity: 0.6
+14: 
+15: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuU3WEZncPfh4x5U0A7c9pWS/cXX1Fk1Wqq4Ape/Hr+oMaJzDZGr7Od31ps+2Dj6fymZIjJaRf5w1+0IOzhW2BWzr4J7YVpBKxgcYvySvGaBd0wB3ZwKIihrCsdojKfK/w/4xJ6dJNkqAYPvEfICnqA9ohWMS4ot+wfgI5SMYr3GC6bOaBt4fQHOLubWGrAO0AI5MQkivmIuv1ksaZlGj7mN49d2r/XHE5eFMRbVJHFOgZiFkyQWKlD8C0vC/bVZEagljvBW8Wuur3ZgeC53h1f1DnRkVysihEBm/jejI3646xmRfUEBzmJ/6l5VPo1hbSbhCxumGFNxwJ5h+QoqUpIdGtxyHhdivdjvQy2f8kTs6qCk+3YUSBauW+CQRg5aroz5wIuNrB7dHNNrY5Wj5nwKvwn1kOKtCmWzut002R6kDdybTB8tgkcTkoWGZ9dXDA4rfgK+4uar3eQ6saVbQ6tRS/lNJBgQYpEwatXEoPMJB5lmOBypHun+h6ufxYgtU= sirius@AuRuM
+16: 
+17:  
+18:  -----BEGIN OPENSSH PRIVATE KEY-----
+19: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+20: NhAAAAAwEAAQAAAYEArlN1hGZ3D34eMeVNAO3PaVkv3F19RZNVqquAKXvx6/qDGicw2Rq+
+21: znd9abPtg4+n8pmSIyWkX+cNftCDs4VtgVs6+Ce2FaQSsYHGL8krxmgXdMAd2cCiIoawrH
+22: aIynyv8P+MSenSTZKgGD7xHyAp6gPaIVjEuKLfsH4COUjGK9xgumzmgbeH0Bzi7m1hqwDt
+23: ACOTEJIr5iLr9ZLGmZRo+5jePXdq/1xxOXhTEW1SRxToGYhZMkFipQ/AtLwv21WRGoJY7w
+
+Backtrace:
+../src/sass/layout/index/header.sass:18
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:494:in `block in tabulate'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:452:in `each'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:452:in `each_with_index'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:452:in `tabulate'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:417:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:290:in `render'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:464:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:82:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:334:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 18 of ../src/sass/layout/index/header.sass\A \A 13:   opacity: 0.6\A 14: \A 15: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuU3WEZncPfh4x5U0A7c9pWS/cXX1Fk1Wqq4Ape/Hr+oMaJzDZGr7Od31ps+2Dj6fymZIjJaRf5w1+0IOzhW2BWzr4J7YVpBKxgcYvySvGaBd0wB3ZwKIihrCsdojKfK/w/4xJ6dJNkqAYPvEfICnqA9ohWMS4ot+wfgI5SMYr3GC6bOaBt4fQHOLubWGrAO0AI5MQkivmIuv1ksaZlGj7mN49d2r/XHE5eFMRbVJHFOgZiFkyQWKlD8C0vC/bVZEagljvBW8Wuur3ZgeC53h1f1DnRkVysihEBm/jejI3646xmRfUEBzmJ/6l5VPo1hbSbhCxumGFNxwJ5h+QoqUpIdGtxyHhdivdjvQy2f8kTs6qCk+3YUSBauW+CQRg5aroz5wIuNrB7dHNNrY5Wj5nwKvwn1kOKtCmWzut002R6kDdybTB8tgkcTkoWGZ9dXDA4rfgK+4uar3eQ6saVbQ6tRS/lNJBgQYpEwatXEoPMJB5lmOBypHun+h6ufxYgtU= sirius@AuRuM\A 16: \A 17:  \A 18:  -----BEGIN OPENSSH PRIVATE KEY-----\A 19: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn\A 20: NhAAAAAwEAAQAAAYEArlN1hGZ3D34eMeVNAO3PaVkv3F19RZNVqquAKXvx6/qDGicw2Rq+\A 21: znd9abPtg4+n8pmSIyWkX+cNftCDs4VtgVs6+Ce2FaQSsYHGL8krxmgXdMAd2cCiIoawrH\A 22: aIynyv8P+MSenSTZKgGD7xHyAp6gPaIVjEuKLfsH4COUjGK9xgumzmgbeH0Bzi7m1hqwDt\A 23: ACOTEJIr5iLr9ZLGmZRo+5jePXdq/1xxOXhTEW1SRxToGYhZMkFipQ/AtLwv21WRGoJY7w"; }
 
 @charset "UTF-8";
 /*вертикальное положение телефона */
@@ -705,7 +734,6 @@ header {
     position: relative;
     top: 0;
     padding-right: 2px;
-    border-bottom: 1px solid lawngreen;
     background-image: linear-gradient(135deg, #109100 10%, #200623 60%, #030000 96%);
     opacity: 0.6; }
   .sub-1 .menu {
@@ -1093,7 +1121,6 @@ body {
     position: relative;
     top: 0;
     padding-right: 2px;
-    border-bottom: 1px solid lawngreen;
     background-image: linear-gradient(135deg, #109100 10%, #200623 60%, #030000 96%);
     opacity: 0.6; }
   .sub-1 .menu {
