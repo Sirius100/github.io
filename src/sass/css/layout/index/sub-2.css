@@ -4,13 +4,13 @@
   display: grid;
   grid-template-rows: 50px auto;
   grid-gap: 2px 2px;
-  background: darkcyan;
   overflow: hidden; }
   .sub-2 .tabs {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas: "GULP GULP GULP GULP WEBPACK WEBPACK WEBPACK WEBPACK";
     align-content: stretch;
+    height: 45px;
     background: #475C59;
     text-align: center; }
     .sub-2 .tabs .gulp {
@@ -19,7 +19,7 @@
       grid-area: WEBPACK; }
     .sub-2 .tabs a {
       text-decoration: none;
-      padding-top: 15px;
+      padding-top: 10px;
       color: #7E7067;
       font-family: sans-serif;
       font-size: large;
