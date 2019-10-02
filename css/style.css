@@ -30,6 +30,11 @@
     border: 1px solid blue; } }
 
 
+body {
+  width: 99vw;
+  height: 300vh;
+  background: #96999C; }
+
 .butt {
   width: 50px;
   height: 35px;
@@ -94,11 +99,6 @@ body {
     grid-area: js;
     border: 1px solid aqua;
     background-color: #260000; }
-
-body {
-  width: 99vw;
-  height: 300vh;
-  background: #96999C; }
 
 header {
   width: inherit;
@@ -611,6 +611,7 @@ header {
     padding-top: 1.3vh; } }
 
 
+
 .navigation {
   width: 97vw;
   height: 10vh;
@@ -647,16 +648,6 @@ header {
               animation-iteration-count: infinite;
       -webkit-animation-direction: alternate;
               animation-direction: alternate; }
-
-
-.slider-1 {
-  background-image: url("../img/bosco.jpg"); }
-
-.slider-2 {
-  background-image: url("../img/robert.jpg"); }
-
-.slider-3 {
-  background-image: url("../img/conor.jpg"); }
 
 @font-face {
   font-family: "jua";
@@ -775,6 +766,15 @@ header {
         position: absolute;
         left: 45.26%; }
 
+.slider-1 {
+  background-image: url("../img/bosco.jpg"); }
+
+.slider-2 {
+  background-image: url("../img/robert.jpg"); }
+
+.slider-3 {
+  background-image: url("../img/conor.jpg"); }
+
 .sub-2 {
   position: absolute;
   top: 100vh;
@@ -809,7 +809,8 @@ header {
       .sub-2 .tabs a:hover {
         color: #FFFFFF; }
     .sub-2 .tabs .interactiv {
-      background-color: rgba(0, 0, 0, 0.5); }
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #ffffff; }
   .sub-2 .text-tools {
     position: relative; }
     .sub-2 .text-tools canvas {
@@ -969,15 +970,6 @@ header {
     width: inherit;
     height: 100vh; }
 
-.work_content {
-  display: grid;
-  position: absolute;
-  left: 20vw;
-  right: 0;
-  top: 80px;
-  bottom: 50px;
-  background-color: floralwhite; }
-
 .work_footer {
   grid-area: footer;
   position: absolute;
@@ -986,6 +978,15 @@ header {
   bottom: 0;
   height: 50px;
   background-color: gray; }
+
+.work_content {
+  display: grid;
+  position: absolute;
+  left: 20vw;
+  right: 0;
+  top: 80px;
+  bottom: 50px;
+  background-color: floralwhite; }
 
 .work_header {
   grid-area: header;
@@ -1321,7 +1322,8 @@ body {
       .sub-2 .tabs a:hover {
         color: #FFFFFF; }
     .sub-2 .tabs .interactiv {
-      background-color: rgba(0, 0, 0, 0.5); }
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #ffffff; }
   .sub-2 .text-tools {
     position: relative; }
     .sub-2 .text-tools canvas {

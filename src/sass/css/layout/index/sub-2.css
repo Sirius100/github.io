@@ -32,7 +32,8 @@
       .sub-2 .tabs a:hover {
         color: #FFFFFF; }
     .sub-2 .tabs .interactiv {
-      background-color: rgba(0, 0, 0, 0.5); }
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #ffffff; }
   .sub-2 .text-tools {
     position: relative; }
     .sub-2 .text-tools canvas {
