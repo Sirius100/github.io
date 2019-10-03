@@ -1,0 +1,17 @@
+extends ../src/pug/template/main.pug
+
+block metas
+
+append link
+		link(rel = 'stylesheet' href = "css/style.css")
+
+block body
+	body
+
+		.wrapper
+			.box
+				button(type = "button") Клик
+
+
+		prepend scripts
+			script(src = 'script.js')

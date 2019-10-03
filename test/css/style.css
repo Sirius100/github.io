@@ -1,0 +1,25 @@
+body {
+  background-color: lime;
+  width: 100vw;
+  height: 100vh; }
+  body .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .wrapper .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 150px;
+      background-color: blue; }
+      body .wrapper .box button {
+        width: 60px;
+        height: 35px;
+        background-color: red;
+        outline: none;
+        border: none; }
+
+/*# sourceMappingURL=../test/maps/style.css.map */
