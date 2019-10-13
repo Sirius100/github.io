@@ -4,7 +4,6 @@
  */
 
 const content = document.querySelectorAll(".CONTENT");
-// const g_w = document.querySelectorAll(".interactiv");
 
 for (let i = 0; i < content.length; i++){
 	const section_G_W = content[i];

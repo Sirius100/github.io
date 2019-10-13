@@ -18,7 +18,9 @@ body {
       body .wrapper .box button {
         width: 60px;
         height: 35px;
-        background-color: red;
+        position: absolute;
+        background-color: red; }
+      body .wrapper .box button, body .wrapper .box:active, body .wrapper .box:focus {
         outline: none;
         border: none; }
 

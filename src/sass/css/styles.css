@@ -345,9 +345,12 @@ body {
       height: 80px;
       border-radius: 50%;
       border: 1px solid #ed3cca;
-      margin: 0 auto; }
+      margin: 0 auto;
+      transition-property: scale;
+      transition-duration: 1s;
+      transition-timing-function: linear; }
       .sub-2 .text-tools .CONTENT:hover, .sub-2 .text-tools .CONTENT:active {
-        transform: scale(1.05); }
+        transform: scale(1.02); }
       .sub-2 .text-tools .CONTENT .section {
         display: none; }
       .sub-2 .text-tools .CONTENT .choose_section {

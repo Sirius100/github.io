@@ -1,17 +1,21 @@
 extends ../src/pug/template/main.pug
 
-block metas
-
 append link
-		link(rel = 'stylesheet' href = "css/style.css")
+	link(rel = 'stylesheet' href = "css/style.css")
+	
+block title
+	title Понимание основ JS 
 
 block body
 	body
+		block content
+			.wrapper
+				.box
+					button(type = "button") Клик-1
+				.box
+					button(type = "button") Клик-2
 
-		.wrapper
-			.box
-				button(type = "button") Клик
 
+			prepend scripts
+				script(src = 'script.js')
 
-		prepend scripts
-			script(src = 'script.js')
